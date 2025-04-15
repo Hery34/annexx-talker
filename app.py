@@ -94,5 +94,5 @@ if not st.session_state.chatbot:
     
     2. Posez vos questions dans la zone de saisie en bas de l'écran
     
-    3. L'assistant vous répondra en se basant sur le contenu de vos documents
+    3. L'assistant vous répondra en se basant sur le contenu de sa base de connaissances et de ses documents
     """)

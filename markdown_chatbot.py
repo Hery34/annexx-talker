@@ -154,16 +154,13 @@ class MarkdownChatbot:
                 "- Frequently reassess and revise\n"
                 "</CORE_PRINCIPLES>\n\n"
                 "<OUTPUT_FORMAT>\n"
-                "Responses must follow:\n"
-                "  <CONTEMPLATOR>\n"
-                "  - Begin with foundational observations\n"
-                "  - Question thoroughly\n"
-                "  - Show natural progression\n"
-                "  </CONTEMPLATOR>\n"
-                "  <FINAL_ANSWER>\n"
-                "  - Clear, concise summary\n"
-                "  - Note remaining questions\n"
-                "  </FINAL_ANSWER>\n"
+                "IMPORTANT: Votre réponse DOIT être structurée exactement comme suit:\n"
+                "1. D'abord, incluez votre raisonnement entre les balises <CONTEMPLATOR> et </CONTEMPLATOR>\n"
+                "2. Ensuite, incluez UNIQUEMENT votre réponse finale entre les balises <FINAL_ANSWER> et </FINAL_ANSWER>\n"
+                "3. NE PAS inclure d'autres balises ou formatage comme '==### Bot=='\n"
+                "4. NE PAS répéter les balises dans votre réponse\n"
+                "5. NE PAS inclure de contenu brut des documents dans votre réponse\n"
+                "6. Synthétisez l'information des documents sans les citer directement\n"
                 "</OUTPUT_FORMAT>\n\n"
                 "Quand vous voyez des éléments entre crochets pendant la conversation, il s'agit d'un élément de réponse qui peut être utilisé dans la réponse. "
                 "Par exemple, si vous voyez [nom_du_prospect], vous pouvez utiliser le nom du prospect dans votre réponse. "
@@ -210,6 +207,9 @@ class MarkdownChatbot:
             
             answer = response.choices[0].message.content
             
+            # Nettoyer la réponse pour supprimer les balises de formatage non désirées
+            answer = answer.replace("==### Bot==", "").strip()
+            
             # Extraire uniquement la partie FINAL_ANSWER si le format est respecté
             if "<FINAL_ANSWER>" in answer and "</FINAL_ANSWER>" in answer:
                 start_idx = answer.find("<FINAL_ANSWER>") + len("<FINAL_ANSWER>")
@@ -223,11 +223,19 @@ class MarkdownChatbot:
                 # Retourner uniquement la partie FINAL_ANSWER à l'utilisateur
                 return final_answer
             else:
-                # Si le format n'est pas respecté, renvoyer la réponse complète
+                # Si le format n'est pas respecté, essayer de nettoyer la réponse
+                # Supprimer les balises CONTEMPLATOR si présentes
+                if "<CONTEMPLATOR>" in answer and "</CONTEMPLATOR>" in answer:
+                    start_idx = answer.find("</CONTEMPLATOR>") + len("</CONTEMPLATOR>")
+                    cleaned_answer = answer[start_idx:].strip()
+                else:
+                    cleaned_answer = answer
+                
+                # Mettre à jour l'historique avec la réponse complète
                 self.chat_history.append({"role": "user", "content": query})
                 self.chat_history.append({"role": "assistant", "content": answer})
                 
-                return answer
+                return cleaned_answer
         
         except Exception as e:
             return f"Erreur lors du traitement de votre question: {str(e)}"
