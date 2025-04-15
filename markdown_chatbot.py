@@ -1,42 +1,29 @@
+# markdown_chatbot.py
 import os
 import glob
-from typing import List
+import numpy as np
+import openai
 from dotenv import load_dotenv
-from langchain_community.document_loaders import TextLoader
-from langchain_text.text_splitter import MarkdownTextSplitter
-from langchain_openai.embeddings import OpenAIEmbeddings
-from langchain_community.vectorstores import FAISS
-from langchain_openai.chat_models import ChatOpenAI
-from langchain.chains import ConversationalRetrievalChain
-from langchain.memory import ConversationBufferMemoryin
-from langchain.memory import ConversationBufferMemory
-
-# Charger les variables d'environnement
-load_dotenv()
 
 class MarkdownChatbot:
-    def __init__(self, docs_dir: str, openai_api_key: str = None):
-        """
-        Initialise l'agent conversationnel avec les documents Markdown.
-        
-        Args:
-            docs_dir: Chemin vers le dossier contenant les documents Markdown
-            openai_api_key: Clé API OpenAI (optionnel si définie dans .env)
-        """
+    def __init__(self, docs_dir, openai_api_key=None):
+        """Initialise le chatbot avec les documents markdown."""
         self.docs_dir = docs_dir
         self.openai_api_key = openai_api_key or os.getenv("OPENAI_API_KEY")
+        openai.api_key = self.openai_api_key
         
-        if not self.openai_api_key:
-            raise ValueError("OpenAI API key is required. Set it in .env file or pass it directly.")
-            
-        # Initialiser les composants
+        # Charger les documents et créer les embeddings
         self.documents = self._load_markdown_docs()
-        self.vectorstore = self._create_vectorstore()
-        self.memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
-        self.qa_chain = self._create_qa_chain()
+        print(f"Nombre de segments de documents chargés: {len(self.documents)}")
         
-    def _load_markdown_docs(self) -> List:
-        """Charge tous les documents Markdown et les divise en chunks."""
+        # Créer les embeddings (vecteurs) des documents
+        self.embeddings = self._create_embeddings(self.documents)
+        
+        # Historique de conversation
+        self.chat_history = []
+    
+    def _load_markdown_docs(self):
+        """Charge et divise les documents markdown."""
         print("Chargement des documents Markdown...")
         
         # Trouver tous les fichiers markdown
@@ -50,74 +37,120 @@ class MarkdownChatbot:
         # Charger et diviser les documents
         documents = []
         
-        # Configurez le diviseur de texte pour les documents Markdown
-        text_splitter = MarkdownTextSplitter(chunk_size=1000, chunk_overlap=100)
-        
         for file_path in markdown_files:
             try:
                 with open(file_path, 'r', encoding='utf-8') as file:
                     content = file.read()
-                    chunks = text_splitter.split_text(content)
-                    documents.extend(chunks)
-                    print(f"Chargé: {file_path} - {len(chunks)} chunks")
+                    # Diviser en segments de 1000 caractères avec 100 caractères de chevauchement
+                    for i in range(0, len(content), 900):
+                        chunk = content[i:i+1000]
+                        # Ajouter des métadonnées pour traçabilité
+                        documents.append({
+                            "content": chunk,
+                            "source": file_path
+                        })
+                    print(f"Chargé: {file_path} - {len(content)} caractères")
             except Exception as e:
                 print(f"Erreur lors du chargement de {file_path}: {e}")
                 
         return documents
     
-    def _create_vectorstore(self):
-        """Crée un index vectoriel des documents pour une recherche efficace."""
-        print("Création de l'index vectoriel...")
+    def _create_embeddings(self, documents):
+        """Crée des embeddings pour tous les documents."""
+        print("Création des embeddings...")
         
-        # Initialiser les embeddings
-        embeddings = OpenAIEmbeddings(openai_api_key=self.openai_api_key)
+        # Extraire le texte des documents
+        texts = [doc["content"] for doc in documents]
         
-        # Créer un vectorstore à partir des documents
-        vectorstore = FAISS.from_texts(self.documents, embeddings)
+        # Créer des embeddings par lots de 20 pour éviter les limites d'API
+        all_embeddings = []
+        batch_size = 20
         
-        return vectorstore
+        for i in range(0, len(texts), batch_size):
+            batch_texts = texts[i:i+batch_size]
+            try:
+                response = openai.embeddings.create(
+                    model="text-embedding-ada-002",
+                    input=batch_texts
+                )
+                batch_embeddings = [embedding.embedding for embedding in response.data]
+                all_embeddings.extend(batch_embeddings)
+                print(f"Embeddings créés: {i+len(batch_texts)}/{len(texts)}")
+            except Exception as e:
+                print(f"Erreur lors de la création des embeddings pour le lot {i}: {e}")
+                # Créer des embeddings vides en cas d'erreur
+                all_embeddings.extend([np.zeros(1536) for _ in range(len(batch_texts))])
+        
+        return all_embeddings
     
-    def _create_qa_chain(self):
-        """Crée la chaîne de traitement question-réponse."""
-        # Initialiser le modèle de langage
-        llm = ChatOpenAI(
-            temperature=0.7, 
-            model_name="gpt-4", 
-            openai_api_key=self.openai_api_key
+    def _find_relevant_documents(self, query, top_k=3):
+        """Trouve les documents les plus pertinents pour la requête."""
+        # Créer l'embedding de la requête
+        query_response = openai.embeddings.create(
+            model="text-embedding-ada-002",
+            input=[query]
         )
+        query_embedding = query_response.data[0].embedding
         
-        # Créer la chaîne de retrieval QA
-        qa_chain = ConversationalRetrievalChain.from_llm(
-            llm=llm,
-            retriever=self.vectorstore.as_retriever(search_kwargs={"k": 3}),
-            memory=self.memory,
-            chain_type="stuff",
-            verbose=True
-        )
+        # Calculer la similarité avec tous les documents
+        similarities = []
+        for doc_embedding in self.embeddings:
+            # Similarité cosinus
+            similarity = np.dot(query_embedding, doc_embedding) / (
+                np.linalg.norm(query_embedding) * np.linalg.norm(doc_embedding)
+            )
+            similarities.append(similarity)
         
-        return qa_chain
+        # Trouver les indices des documents les plus similaires
+        top_indices = np.argsort(similarities)[-top_k:][::-1]
+        
+        # Retourner les documents pertinents
+        relevant_docs = [self.documents[i] for i in top_indices]
+        return relevant_docs
     
-    def ask(self, query: str) -> str:
-        """
-        Pose une question à l'agent et obtient une réponse.
-        
-        Args:
-            query: La question à poser
-            
-        Returns:
-            La réponse générée par l'agent
-        """
-        if not query.strip():
-            return "Veuillez poser une question."
-        
+    def ask(self, query):
+        """Répond à une question en utilisant les documents pertinents."""
         try:
-            # Obtenir une réponse basée sur la question et l'historique de conversation
-            response = self.qa_chain({"question": query})
-            return response["answer"]
+            # Trouver les documents pertinents
+            relevant_docs = self._find_relevant_documents(query)
+            
+            # Construire le contexte à partir des documents pertinents
+            context = "\n\n---\n\n".join([doc["content"] for doc in relevant_docs])
+            
+            # Construire les messages pour le chat
+            messages = [
+                {"role": "system", "content": f"Vous êtes un assistant IA basé sur une collection de documents markdown. "
+                                            f"Répondez aux questions en utilisant uniquement les informations contenues "
+                                            f"dans ces documents. Si la réponse n'est pas dans les documents, dites que "
+                                            f"vous ne savez pas. Voici les extraits pertinents:\n\n{context}"}
+            ]
+            
+            # Ajouter l'historique récent (limité à 4 messages)
+            for msg in self.chat_history[-4:]:
+                messages.append(msg)
+            
+            # Ajouter la question actuelle
+            messages.append({"role": "user", "content": query})
+            
+            # Générer la réponse
+            response = openai.chat.completions.create(
+                model="gpt-4",
+                messages=messages,
+                temperature=0.7,
+            )
+            
+            answer = response.choices[0].message.content
+            
+            # Mettre à jour l'historique
+            self.chat_history.append({"role": "user", "content": query})
+            self.chat_history.append({"role": "assistant", "content": answer})
+            
+            return answer
+        
         except Exception as e:
             return f"Erreur lors du traitement de votre question: {str(e)}"
-
+    
     def reset_conversation(self):
         """Réinitialise l'historique de conversation."""
-        self.memory.clear()
+        self.chat_history = []
         return "Conversation réinitialisée."

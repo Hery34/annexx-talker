@@ -1,16 +1,17 @@
+# app.py
 import streamlit as st
 import os
 from markdown_chatbot import MarkdownChatbot
 
 # Configuration de la page
 st.set_page_config(
-    page_title="Assistant IA - Documents Markdown",
+    page_title="Assistant Documents Markdown",
     page_icon="💬",
     layout="wide"
 )
 
 # Titre de l'application
-st.title("💬 Assistant IA basé sur vos documents Markdown")
+st.title("💬 Assistant IA basé sur documents Markdown")
 
 # Initialisation des variables de session
 if "chatbot" not in st.session_state:
@@ -25,21 +26,21 @@ with st.sidebar:
     # Input pour la clé API OpenAI
     openai_api_key = st.text_input("Clé API OpenAI", 
                                   type="password", 
-                                  help="Votre clé API OpenAI est nécessaire pour le fonctionnement de l'assistant")
+                                  help="Votre clé API OpenAI est nécessaire")
     
     # Input pour le chemin des documents
     docs_dir = st.text_input("Dossier des documents Markdown", 
                             value="./documents",
-                            help="Chemin vers le dossier contenant vos documents Markdown")
+                            help="Chemin vers le dossier contenant vos documents")
     
-    # Bouton pour initialiser ou réinitialiser le chatbot
+    # Bouton pour initialiser le chatbot
     if st.button("Initialiser l'assistant"):
         if not openai_api_key:
             st.error("Veuillez fournir une clé API OpenAI")
         elif not os.path.exists(docs_dir):
             st.error(f"Le dossier {docs_dir} n'existe pas")
         else:
-            with st.spinner("Initialisation de l'assistant..."):
+            with st.spinner("Initialisation de l'assistant (création des embeddings, cela peut prendre quelques instants)..."):
                 try:
                     st.session_state.chatbot = MarkdownChatbot(docs_dir, openai_api_key)
                     st.success("Assistant initialisé avec succès!")
@@ -94,5 +95,5 @@ if not st.session_state.chatbot:
     
     2. Posez vos questions dans la zone de saisie en bas de l'écran
     
-    3. L'assistant vous répondra en se basant sur le contenu de vos documents Markdown
+    3. L'assistant vous répondra en se basant sur le contenu de vos documents
     """)
