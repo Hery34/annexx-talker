@@ -1,0 +1,135 @@
+{
+    "taxonomie_appels": {
+      "version": "1.0",
+      "derniere_mise_a_jour": "2025-04-08",
+      
+      "types_appel": [
+        "demande_information",
+        "demande_devis",
+        "reservation",
+        "reclamation",
+        "support_technique",
+        "resiliation",
+        "modification_contrat",
+        "suivi_commande",
+        "demande_remboursement",
+        "autre"
+      ],
+      
+      "services_concernes": [
+        "location_box_standard",
+        "location_box_climatise",
+        "demenagement",
+        "stockage_archives",
+        "stockage_professionnel",
+        "stockage_temporaire",
+        "box_particulier",
+        "box_entreprise",
+        "box_special_mobilier",
+        "admin_contrat"
+      ],
+      
+      "resultats_appel": [
+        "information_fournie",
+        "devis_envoye",
+        "reservation_effectuee",
+        "probleme_resolu",
+        "transfert_autre_service",
+        "visite_programmee",
+        "contrat_signe",
+        "suivi_en_cours",
+        "reclamation_enregistree",
+        "sans_suite"
+      ],
+      
+      "sujets_principaux": [
+        "dimensions_box",
+        "tarification",
+        "disponibilite",
+        "conditions_acces",
+        "securite_box",
+        "duree_engagement",
+        "modalites_paiement",
+        "assurance",
+        "horaires_ouverture",
+        "procedure_resiliation",
+        "materiaux_stockables",
+        "probleme_technique",
+        "localisation_centre"
+      ],
+      
+      "echelles": {
+        "satisfaction_client": {
+          "1": "Très insatisfait",
+          "2": "Insatisfait",
+          "3": "Neutre",
+          "4": "Satisfait",
+          "5": "Très satisfait"
+        },
+        "qualite_service": {
+          "1": "Mauvaise",
+          "2": "Médiocre",
+          "3": "Correcte",
+          "4": "Bonne",
+          "5": "Excellente"
+        },
+        "qualite_audio": [
+          "excellente",
+          "bonne",
+          "moyenne",
+          "mauvaise",
+          "très_mauvaise"
+        ]
+      },
+      
+      "regions_client": [
+        "Paris",
+        "Marseille",
+        "Lyon",
+        "Bordeaux",
+        "Saint-Etienne",
+        "Toulouse",
+        "Nantes",
+        "Pau",
+        "Montpellier",
+        "Nice",
+        "Autre"
+      ],
+      
+      "classifications_sujet": [
+        "information",
+        "tarification",
+        "logistique",
+        "technique",
+        "commercial",
+        "administratif",
+        "juridique",
+        "financier",
+        "reclamation"
+      ],
+      
+      "equipes_agent": [
+        "support_client",
+        "ventes",
+        "service_technique",
+        "reclamations",
+        "administration",
+        "direction_regionale"
+      ]
+    },
+    
+    "instructions_utilisation": {
+      "ajout_nouveaux_termes": "Lorsqu'un nouveau terme est nécessaire, l'ajouter d'abord à ce fichier maître avant de l'utiliser dans les métadonnées d'appels",
+      "format_dates": "Utiliser le format ISO 8601 (YYYY-MM-DDTHH:MM:SS)",
+      "convention_nommage_fichiers": "YYYYMMDD_region_sujetprincipal_ID.json"
+    },
+    
+    "statistiques_base": {
+      "nombre_appels_total": 0,
+      "date_premier_appel": "",
+      "date_dernier_appel": "",
+      "duree_moyenne_appels": 0,
+      "types_appels_frequents": {},
+      "sujets_frequents": {}
+    }
+  }

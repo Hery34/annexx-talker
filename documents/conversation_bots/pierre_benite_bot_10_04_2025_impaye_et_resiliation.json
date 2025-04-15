@@ -1,0 +1,257 @@
+{
+  "metadata": {
+    "filename": "pierre_benite_bot.mp3",
+    "duration": 159.4,
+    "date_transcription": "2025-04-11T09:58:07.835555",
+    "model": "whisper-large",
+    "processing": "mp3-transcription"
+  },
+  "speakers": {
+    "Speaker 1": {
+      "id": "Speaker 1",
+      "name": "Client",
+      "segments_count": 8
+    },
+    "Speaker 2": {
+      "id": "Speaker 2",
+      "name": "Agent",
+      "segments_count": 15
+    }
+  },
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 14.700000000000001,
+      "text": " Bonjour, Radia Mioubi. Bienvenue chez Annex Pierre-Bénis. Votre compte est actuellement bloqué car vous devez la somme de 246,98 euros. Souhaitez-vous recevoir le lien pour un paiement et mise à jour de votre compte?",
+      "speaker": "Speaker 1",
+      "entities": [
+        {
+          "text": "Radia Mioubi",
+          "label": "ORG",
+          "start": 10,
+          "end": 22
+        },
+        {
+          "text": "Annex Pierre-Bénis",
+          "label": "MISC",
+          "start": 39,
+          "end": 57
+        }
+      ],
+      "tags": [
+        "prix"
+      ]
+    },
+    {
+      "start_time": 14.7,
+      "end_time": 25.58,
+      "text": " Non. Non. Non.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 30.0,
+      "end_time": 36.6,
+      "text": " bénéficier de nos services. Avez-vous une autre demande? Je souhaite parler avec une personne.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 36.6,
+      "end_time": 43.44,
+      "text": " Tous nos conseillers sont actuellement en ligne. Afin d'éviter une attente,",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 43.44,
+      "end_time": 48.900000000000006,
+      "text": " pouvez-vous m'expliquer avec des phrases complètes votre demande? Par rapport aux boxes.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 48.900000000000006,
+      "end_time": 59.1,
+      "text": " Pouvez-vous préciser si vous avez un problème avec le code d'accès au site ou avec le code",
+      "speaker": "Speaker 2",
+      "entities": [
+        {
+          "text": "Pouvez",
+          "label": "MISC",
+          "start": 1,
+          "end": 7
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 59.1,
+      "end_time": 61.7,
+      "text": " du cadenas?",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 60.0,
+      "end_time": 62.3,
+      "text": " Je souhaite rendre le box.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 67.3,
+      "end_time": 75.4,
+      "text": " Pouvez-vous préciser ce que vous entendez par huit préavis? S'agit-il d'une demande de préavis spécifique ou d'une question sur un préavis en cours?",
+      "speaker": "Speaker 1",
+      "entities": [
+        {
+          "text": "Pouvez",
+          "label": "MISC",
+          "start": 1,
+          "end": 7
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 76.4,
+      "end_time": 77.44,
+      "text": " D'une question.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 81.22,
+      "end_time": 89.42,
+      "text": " Pourriez-vous préciser votre question concernant les préavis? Est-ce que vous souhaitez des informations sur un préavis en cours ou sur la procédure à suivre?",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 90.0,
+      "end_time": 92.42,
+      "text": " Sur la procédure à suivre.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 92.42,
+      "end_time": 122.4,
+      "text": " La procédure à suivre.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 120.0,
+      "end_time": 121.84,
+      "text": " Voulez-vous enclencher votre préavis?",
+      "speaker": "Speaker 2",
+      "entities": [
+        {
+          "text": "Voulez",
+          "label": "LOC",
+          "start": 1,
+          "end": 7
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 123.02,
+      "end_time": 123.34,
+      "text": " Non.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 126.84,
+      "end_time": 127.4,
+      "text": " Non.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 132.58,
+      "end_time": 133.14,
+      "text": " Non.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 137.82,
+      "end_time": 138.38,
+      "text": " Non.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 139.72,
+      "end_time": 140.96,
+      "text": " J'ai mal entendu.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 141.44,
+      "end_time": 141.82,
+      "text": " Non.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 144.92000000000002,
+      "end_time": 146.68,
+      "text": " Avez-vous besoin d'autre chose?",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 146.68,
+      "end_time": 150.0,
+      "text": " Je souhaite parler avec une...",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 150.0,
+      "end_time": 159.4,
+      "text": " Dans ce cas, merci de patienter un instant. Je vous transfère au service de l'agence annexe Pierre-Béni.",
+      "speaker": "Speaker 2",
+      "entities": [
+        {
+          "text": "Pierre-Béni",
+          "label": "ORG",
+          "start": 93,
+          "end": 104
+        }
+      ],
+      "tags": []
+    }
+  ],
+  "dialogue_summary": {
+    "total_segments": 23,
+    "total_duration": 159.4,
+    "tags": [
+      "prix"
+    ]
+  }
+}

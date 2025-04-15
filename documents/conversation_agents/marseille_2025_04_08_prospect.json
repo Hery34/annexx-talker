@@ -1,0 +1,2840 @@
+{
+  "metadata": {
+    "filename": "marseille.wav",
+    "duration": 646.96,
+    "date_transcription": "2025-04-08T13:27:34.553255",
+    "model": "whisper-large",
+    "processing": "segmented-improved"
+  },
+  "speakers": {
+    "Speaker 1": {
+      "id": "Speaker 1",
+      "name": "Client",
+      "segments_count": 134
+    },
+    "Speaker 2": {
+      "id": "Speaker 2",
+      "name": "Agent",
+      "segments_count": 176
+    }
+  },
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 21.78,
+      "text": " Oui, bonjour, madame.",
+      "speaker": "Speaker 1",
+      "entities": [
+        {
+          "text": "bonjour",
+          "label": "PER",
+          "start": 6,
+          "end": 13
+        },
+        {
+          "text": "madame",
+          "label": "PER",
+          "start": 15,
+          "end": 21
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 0.0,
+      "end_time": 6.88,
+      "text": " Utilisez votre espace client sur annexe.com ou téléchargez notre application mobile Annexe.",
+      "speaker": "Speaker 2",
+      "entities": [
+        {
+          "text": "Utilisez votre espace client",
+          "label": "MISC",
+          "start": 1,
+          "end": 29
+        },
+        {
+          "text": "annexe.com",
+          "label": "MISC",
+          "start": 34,
+          "end": 44
+        },
+        {
+          "text": "Annexe",
+          "label": "PER",
+          "start": 85,
+          "end": 91
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 6.88,
+      "end_time": 12.620000000000001,
+      "text": " Vous y trouverez l'ensemble de vos factures, vous pourrez récupérer votre code d'accès ou donner votre préavis.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 12.9,
+      "end_time": 16.6,
+      "text": " Vous pourrez aussi mettre à jour vos coordonnées postales ou bancaires.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 16.9,
+      "end_time": 18.88,
+      "text": " Il vous sera même possible de...",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 18.88,
+      "end_time": 20.38,
+      "text": " Annexe 11, bonjour.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 21.88,
+      "end_time": 22.86,
+      "text": " Excusez-moi de vous déranger.",
+      "speaker": "Speaker 1",
+      "entities": [
+        {
+          "text": "Excusez",
+          "label": "MISC",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 23.66,
+      "end_time": 26.48,
+      "text": " Je cherche un garde-meuble.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 26.48,
+      "end_time": 30.0,
+      "text": " Mais par contre...",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 30.0,
+      "end_time": 32.34,
+      "text": " les dimensions, il va falloir un peu larguer.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 30.0,
+      "end_time": 36.38,
+      "text": " Oui, ne vous inquiétez pas, on est là pour ça, pas de souci.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 32.86,
+      "end_time": 33.12,
+      "text": " Pardon.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 37.12,
+      "end_time": 42.3,
+      "text": " Pas du tout, pas du tout.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 37.82,
+      "end_time": 42.0,
+      "text": " Du coup, vous connaissez déjà un petit peu comment ça fonctionne ou pas du tout ?",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 42.0,
+      "end_time": 42.34,
+      "text": " OK.",
+      "speaker": "Speaker 2",
+      "entities": [
+        {
+          "text": "OK",
+          "label": "MISC",
+          "start": 1,
+          "end": 3
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 42.88,
+      "end_time": 45.64,
+      "text": " Donc, pour vous donner les principaux avantages chez nous,",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 45.96,
+      "end_time": 46.54,
+      "text": " Hum hum.",
+      "speaker": "Speaker 1",
+      "entities": [
+        {
+          "text": "Hum hum",
+          "label": "PER",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 46.0,
+      "end_time": 48.56,
+      "text": " c'est qu'en fait, déjà, vous n'êtes pas engagé sur une durée.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 50.3,
+      "end_time": 56.04,
+      "text": " Vous arrivez quand vous voulez, vous réglez le prorata, les jours utilisés,",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": [
+        "horaires"
+      ]
+    },
+    {
+      "start_time": 56.04,
+      "end_time": 60.019999999999996,
+      "text": " et puis tant que vous ne nous dites rien, ça se reproduit de moins en moins.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 56.379999999999995,
+      "end_time": 57.08,
+      "text": " Hum hum.",
+      "speaker": "Speaker 1",
+      "entities": [
+        {
+          "text": "Hum hum",
+          "label": "PER",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 60.0,
+      "end_time": 61.08,
+      "text": " Mm-hmm.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 60.0,
+      "end_time": 62.08,
+      "text": " mois. Et quand vous aurez besoin",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 62.08,
+      "end_time": 63.88,
+      "text": " de quitter le box,",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 64.12,
+      "end_time": 66.18,
+      "text": " il y aura simplement un préavis de 15 jours",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": [
+        "horaires"
+      ]
+    },
+    {
+      "start_time": 66.18,
+      "end_time": 67.04,
+      "text": " à",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 67.04,
+      "end_time": 69.96000000000001,
+      "text": " respecter. Donc,",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 69.3,
+      "end_time": 69.86,
+      "text": " Oh.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 70.02,
+      "end_time": 71.62,
+      "text": " vous nous appelez, vous passez,",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 72.22,
+      "end_time": 74.16,
+      "text": " vous envoyez un mail, rien de bien compliqué.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 72.44,
+      "end_time": 73.0,
+      "text": " OK.",
+      "speaker": "Speaker 1",
+      "entities": [
+        {
+          "text": "OK",
+          "label": "MISC",
+          "start": 1,
+          "end": 3
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 74.9,
+      "end_time": 75.2,
+      "text": " Mm-hmm.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 75.7,
+      "end_time": 76.14,
+      "text": " Après,",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 77.0,
+      "end_time": 77.78,
+      "text": " ce qui est",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 77.78,
+      "end_time": 79.96000000000001,
+      "text": " pratique aussi, c'est que grâce à votre code",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 79.96000000000001,
+      "end_time": 81.36,
+      "text": " d'accès, vous avez accès,",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 81.48,
+      "end_time": 84.06,
+      "text": " quand vous voulez, du lundi au dimanche",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 84.06,
+      "end_time": 86.02,
+      "text": " inclus, tous les jours,",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": [
+        "horaires"
+      ]
+    },
+    {
+      "start_time": 86.14,
+      "end_time": 88.06,
+      "text": " donc, entre 6h et 23h.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 88.14,
+      "end_time": 88.86,
+      "text": " Ah oui.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 89.28,
+      "end_time": 89.52,
+      "text": " OK.",
+      "speaker": "Speaker 1",
+      "entities": [
+        {
+          "text": "OK",
+          "label": "MISC",
+          "start": 1,
+          "end": 3
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 89.42,
+      "end_time": 89.82,
+      "text": " Voilà.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 90.0,
+      "end_time": 94.4,
+      "text": " Donc, votre code vous ouvre les portes et vous êtes totalement autonome.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 90.9,
+      "end_time": 92.48,
+      "text": " Oui, on peut faire un...",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 92.48,
+      "end_time": 92.8,
+      "text": " Ouais.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 94.88,
+      "end_time": 95.18,
+      "text": " Ouais.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 95.16,
+      "end_time": 101.78,
+      "text": " La dernière chose à savoir, c'est que vous êtes en fait sur des espaces qui sont sécurisés.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 101.94,
+      "end_time": 109.56,
+      "text": " Il y a une alarme sur la porte de chaque box et il y a également de la vidéosurveillance à l'intérieur, à l'extérieur des bâtiments.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": [
+        "sécurité"
+      ]
+    },
+    {
+      "start_time": 104.04,
+      "end_time": 104.46000000000001,
+      "text": " Ah-ah.",
+      "speaker": "Speaker 1",
+      "entities": [
+        {
+          "text": "Ah-ah",
+          "label": "MISC",
+          "start": 1,
+          "end": 6
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 110.12,
+      "end_time": 110.44,
+      "text": " OK.",
+      "speaker": "Speaker 1",
+      "entities": [
+        {
+          "text": "OK",
+          "label": "MISC",
+          "start": 1,
+          "end": 3
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 110.94,
+      "end_time": 111.4,
+      "text": " OK ?",
+      "speaker": "Speaker 2",
+      "entities": [
+        {
+          "text": "OK",
+          "label": "LOC",
+          "start": 1,
+          "end": 3
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 111.28,
+      "end_time": 112.44,
+      "text": " Oui, donc on peut mettre d'accord.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 112.86,
+      "end_time": 119.5,
+      "text": " Oui, vous êtes tranquille et s'il y a quoi que ce soit, il y a une agence et là, voilà, on est là à votre disposition.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 120.0,
+      "end_time": 128.82,
+      "text": " Non, c'est...",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 120.0,
+      "end_time": 120.98,
+      "text": " Également par téléphone.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 122.42,
+      "end_time": 123.98,
+      "text": " Là, votre projet, c'est quoi ?",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 123.98,
+      "end_time": 125.06,
+      "text": " C'est un déménagement ?",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 125.06,
+      "end_time": 127.7,
+      "text": " C'est dans le cadre personnel ?",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 127.7,
+      "end_time": 129.32,
+      "text": " Professionnel ?",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 128.82,
+      "end_time": 130.7,
+      "text": " Alors, oui, c'est professionnel.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 129.32,
+      "end_time": 131.24,
+      "text": " Hum hum.",
+      "speaker": "Speaker 2",
+      "entities": [
+        {
+          "text": "Hum hum",
+          "label": "PER",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 131.34,
+      "end_time": 133.0,
+      "text": " C'est le temps...",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 133.0,
+      "end_time": 135.04,
+      "text": " Là, je dois déménager au 30 avril.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 135.24,
+      "end_time": 135.82,
+      "text": " Hum hum.",
+      "speaker": "Speaker 2",
+      "entities": [
+        {
+          "text": "Hum hum",
+          "label": "PER",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 137.22,
+      "end_time": 141.18,
+      "text": " Le temps d'avoir la validation d'un autre local",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 141.18,
+      "end_time": 142.7,
+      "text": " et surtout faire des travaux.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 142.82,
+      "end_time": 143.36,
+      "text": " Hum hum.",
+      "speaker": "Speaker 2",
+      "entities": [
+        {
+          "text": "Hum hum",
+          "label": "PER",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 143.36,
+      "end_time": 146.08,
+      "text": " Il faut que je me cherche un endroit où je stocke...",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 146.08,
+      "end_time": 148.0,
+      "text": " J'ai deux tables de traitement.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 150.0,
+      "end_time": 160.74,
+      "text": " J'ai deux fauteuils, j'ai deux étagères et j'ai surtout des meubles, vous savez, des caissons à 4,50 mètres de linéaire, vous voyez.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 150.0,
+      "end_time": 163.58,
+      "text": " D'accord.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 161.1,
+      "end_time": 168.42000000000002,
+      "text": " Bon, des caissons qui se déboîtent, il n'y a pas de souci, et qui s'empilent, mais j'en ai quand même un peu.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 163.58,
+      "end_time": 180.0,
+      "text": " Ok. Là, déjà, le local que vous devez déménager, ce sera tout le local qui…",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 168.56,
+      "end_time": 172.62,
+      "text": " Donc je ne sais pas du tout les dimensions qu'il faudrait, les plus appropriées en fait.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 180.0,
+      "end_time": 185.02,
+      "text": " Ouais, mais bon, finalement, il n'y a pas grand-chose.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 180.0,
+      "end_time": 182.14,
+      "text": " qui sera donc à entreposer.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 182.36,
+      "end_time": 182.48,
+      "text": " OK.",
+      "speaker": "Speaker 2",
+      "entities": [
+        {
+          "text": "OK",
+          "label": "MISC",
+          "start": 1,
+          "end": 3
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 182.84,
+      "end_time": 183.9,
+      "text": " Il fait quelle...",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 183.9,
+      "end_time": 186.38,
+      "text": " Oui, j'imagine,",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 186.54,
+      "end_time": 187.24,
+      "text": " surtout si vous me dites",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 187.24,
+      "end_time": 188.24,
+      "text": " que les caissons",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 188.24,
+      "end_time": 189.1,
+      "text": " de 4 mètres linéaires,",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 189.14,
+      "end_time": 189.72,
+      "text": " là, sans piles,",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 190.28,
+      "end_time": 193.26,
+      "text": " Ouais, c'est des meubles de cuisine, vous savez.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 190.3,
+      "end_time": 191.12,
+      "text": " c'est parfait.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 193.36,
+      "end_time": 193.8,
+      "text": " Oui.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 194.96,
+      "end_time": 195.4,
+      "text": " OK.",
+      "speaker": "Speaker 2",
+      "entities": [
+        {
+          "text": "OK",
+          "label": "MISC",
+          "start": 1,
+          "end": 3
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 196.54,
+      "end_time": 197.26,
+      "text": " Et oui,",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 197.42000000000002,
+      "end_time": 198.44,
+      "text": " quand vous parliez aussi",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 198.44,
+      "end_time": 199.74,
+      "text": " des tables de traitement,",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 200.08,
+      "end_time": 201.0,
+      "text": " c'est...",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 200.26,
+      "end_time": 202.32,
+      "text": " Voilà, c'est ça.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 201.0,
+      "end_time": 202.8,
+      "text": " C'est des tables de massage",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 202.8,
+      "end_time": 204.0,
+      "text": " ou...",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 203.4,
+      "end_time": 205.2,
+      "text": " C'est des tables, ouais.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 207.0,
+      "end_time": 208.94,
+      "text": " Ça ressemble à ça ?",
+      "speaker": "Speaker 2",
+      "entities": [
+        {
+          "text": "Ça",
+          "label": "MISC",
+          "start": 1,
+          "end": 3
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 207.12,
+      "end_time": 208.7,
+      "text": " Alors, il y a une...",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 208.7,
+      "end_time": 209.57999999999998,
+      "text": " Ouais, ouais, c'est ça.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 208.94,
+      "end_time": 210.0,
+      "text": " Oui.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 210.0,
+      "end_time": 212.72,
+      "text": " table qui se plie",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 210.0,
+      "end_time": 222.68,
+      "text": " D'accord, ok, parfait",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 212.72,
+      "end_time": 216.24,
+      "text": " qui peut se plier",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 216.24,
+      "end_time": 217.58,
+      "text": " donc du coup",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 217.58,
+      "end_time": 220.38,
+      "text": " ça ne prend pas forcément beaucoup de place",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 220.38,
+      "end_time": 221.48,
+      "text": " les deux se plient",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 221.48,
+      "end_time": 224.64,
+      "text": " mais se plient en étant assises",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 222.68,
+      "end_time": 225.52,
+      "text": " Oui",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 224.64,
+      "end_time": 224.96,
+      "text": " vous voyez",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 224.96,
+      "end_time": 227.26,
+      "text": " comme si c'était un fauteuil",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 225.52,
+      "end_time": 228.64,
+      "text": " Ok, je vois",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 227.26,
+      "end_time": 233.66,
+      "text": " ça représente un fauteuil",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 228.64,
+      "end_time": 230.82,
+      "text": " Et donc une fois pliée, ça représente quel",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 230.82,
+      "end_time": 236.68,
+      "text": " Ni plus ni moins qu'un fauteuil classique",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 233.66,
+      "end_time": 238.5,
+      "text": " un fauteuil de salon",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 236.68,
+      "end_time": 238.26,
+      "text": " Ok, donc un peu",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 238.26,
+      "end_time": 239.14,
+      "text": " Un mètre cube",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 238.5,
+      "end_time": 239.5,
+      "text": " un peu large",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 239.5,
+      "end_time": 269.48,
+      "text": " c'est un fauteuil de salon",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 240.0,
+      "end_time": 249.94,
+      "text": " non c'est deux fauteuils",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 240.0,
+      "end_time": 241.34,
+      "text": " Ok, ça marche.",
+      "speaker": "Speaker 2",
+      "entities": [
+        {
+          "text": "Ok, ça marche",
+          "label": "MISC",
+          "start": 1,
+          "end": 14
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 242.64,
+      "end_time": 244.78,
+      "text": " Ok, les deux fauteuils, on en a parlé.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 245.7,
+      "end_time": 248.0,
+      "text": " Ça, il se plie ou il ne se plie pas les fauteuils ?",
+      "speaker": "Speaker 2",
+      "entities": [
+        {
+          "text": "Ça",
+          "label": "MISC",
+          "start": 1,
+          "end": 3
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 249.94,
+      "end_time": 251.84,
+      "text": " de salon malheureusement",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 251.84,
+      "end_time": 253.7,
+      "text": " alors peut-être que je pourrais stocker ailleurs",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 253.7,
+      "end_time": 255.68,
+      "text": " ceux-là à la limite c'est pas très gênant",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 255.68,
+      "end_time": 267.2,
+      "text": " et oui je les vois",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 256.96,
+      "end_time": 258.44,
+      "text": " Si, ça, ça peut rentrer.",
+      "speaker": "Speaker 2",
+      "entities": [
+        {
+          "text": "ça",
+          "label": "MISC",
+          "start": 5,
+          "end": 7
+        },
+        {
+          "text": "ça",
+          "label": "MISC",
+          "start": 9,
+          "end": 11
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 258.66,
+      "end_time": 265.02,
+      "text": " En fait, toute l'astuce, c'est d'optimiser la hauteur.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 265.02,
+      "end_time": 267.02,
+      "text": " Puisque nous, vous avez…",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 267.2,
+      "end_time": 269.12,
+      "text": " hauteur box environ 2 mètres",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 269.12,
+      "end_time": 269.74,
+      "text": " à l'horizon",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 270.0,
+      "end_time": 299.0,
+      "text": " – Les étagères, vous savez,",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 270.0,
+      "end_time": 288.52,
+      "text": " Justement. Donc, vous voyez, les caissons de 4 mètres linéaires, vous pouvez les mettre, par exemple, sur deux, enfin, deux côte à côte, en empiler quelques-uns et continuer avec, je dis des bêtises, mais peut-être les fauteuils, justement, s'ils ne sont pas trop lourds, parce que ça va vous permettre d'optimiser la surface au sol.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 289.9,
+      "end_time": 295.5,
+      "text": " Les étagères, c'est des étagères classiques qui doivent faire 80.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 299.0,
+      "end_time": 299.98,
+      "text": " les étagères,",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 300.0,
+      "end_time": 301.74,
+      "text": " Alors, pour le coup, c'est en hauteur.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 300.0,
+      "end_time": 312.24,
+      "text": " 80 ou moins mètres de long",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 301.92,
+      "end_time": 302.48,
+      "text": " Ça, c'est haut.",
+      "speaker": "Speaker 1",
+      "entities": [
+        {
+          "text": "Ça",
+          "label": "MISC",
+          "start": 1,
+          "end": 3
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 303.56,
+      "end_time": 304.66,
+      "text": " Et en largeur,",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 305.44,
+      "end_time": 307.66,
+      "text": " ça fait sur pied...",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 307.66,
+      "end_time": 308.94,
+      "text": " Putain, qu'est-ce qu'on va faire ?",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 308.94,
+      "end_time": 311.38,
+      "text": " Je ne sais pas, ça doit...",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 311.38,
+      "end_time": 313.52,
+      "text": " Ouais, ouais, ouais. Au moins d'un mètre.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 312.24,
+      "end_time": 314.06,
+      "text": " ok",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 313.68,
+      "end_time": 314.34,
+      "text": " Ouais, ouais, ouais.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 314.06,
+      "end_time": 315.68,
+      "text": " ça marche",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 315.68,
+      "end_time": 317.6,
+      "text": " et la profondeur ça fait quoi ?",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 317.6,
+      "end_time": 319.68,
+      "text": " une quarantaine de centimètres ?",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 320.48,
+      "end_time": 321.18,
+      "text": " Ouais, c'est ça.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 321.68,
+      "end_time": 321.96,
+      "text": " ok",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 321.96,
+      "end_time": 324.48,
+      "text": " ok",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 322.48,
+      "end_time": 323.6,
+      "text": " Ouais, mais toi, genre, ouais.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 324.48,
+      "end_time": 326.0,
+      "text": " ça marche",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 326.0,
+      "end_time": 329.1,
+      "text": " les caissons, ceux qui font 4 mètres linéaires",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 329.1,
+      "end_time": 330.06,
+      "text": " comme il y a",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 330.0,
+      "end_time": 336.16,
+      "text": " Alors, il y en a que je prends pour chez moi,",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 330.0,
+      "end_time": 331.14,
+      "text": " il y en a, vous me disiez.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 337.28,
+      "end_time": 341.62,
+      "text": " mais je vais avoir un, deux, trois, quatre, cinq.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 343.02,
+      "end_time": 343.42,
+      "text": " OK.",
+      "speaker": "Speaker 2",
+      "entities": [
+        {
+          "text": "OK",
+          "label": "MISC",
+          "start": 1,
+          "end": 3
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 344.28,
+      "end_time": 345.24,
+      "text": " Cinq comme ça.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 345.88,
+      "end_time": 347.82,
+      "text": " Est-ce qu'éventuellement, on peut les basculer",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 347.82,
+      "end_time": 350.0,
+      "text": " à la verticale ?",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 350.5,
+      "end_time": 352.1,
+      "text": " Elle avait...",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 350.52,
+      "end_time": 351.8,
+      "text": " Vous voyez l'idée ?",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 351.8,
+      "end_time": 353.82,
+      "text": " C'est-à-dire qu'au lieu de les poser",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 352.1,
+      "end_time": 359.88,
+      "text": " On gagne de la place.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 353.82,
+      "end_time": 356.04,
+      "text": " comme ils sont au sol,",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 356.42,
+      "end_time": 357.34,
+      "text": " vous les basculez",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 357.34,
+      "end_time": 359.34,
+      "text": " pour avoir",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 359.34,
+      "end_time": 389.32,
+      "text": " un peu plus de distance.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 360.0,
+      "end_time": 363.56,
+      "text": " alors c'est une bonne question",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 360.0,
+      "end_time": 367.0,
+      "text": " Exactement. Ça craint pas ?",
+      "speaker": "Speaker 2",
+      "entities": [
+        {
+          "text": "Ça",
+          "label": "MISC",
+          "start": 13,
+          "end": 15
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 363.56,
+      "end_time": 367.46,
+      "text": " ils sont fixés là au mur",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 367.0,
+      "end_time": 377.14,
+      "text": " De contradiction à ce qu'elle est mettue sur le...",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 367.46,
+      "end_time": 368.78,
+      "text": " donc je peux",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 368.78,
+      "end_time": 370.08,
+      "text": " normalement ça tient",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 370.08,
+      "end_time": 371.54,
+      "text": " je vois pas le",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 371.54,
+      "end_time": 375.64,
+      "text": " non",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 375.64,
+      "end_time": 377.74,
+      "text": " non non non",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 377.14,
+      "end_time": 389.62,
+      "text": " Donc là, par rapport à ce que vous me disiez, moi je pense qu'un box de 5 mètres devrait suffire amplement.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 390.0,
+      "end_time": 396.6,
+      "text": " C'est incroyable quand même",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 390.0,
+      "end_time": 394.84,
+      "text": " Un peu, je regarde. Ce serait donc un peu.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 394.84,
+      "end_time": 411.66,
+      "text": " D'accord.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 396.6,
+      "end_time": 397.44,
+      "text": " parce que moi j'ai vu",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 397.44,
+      "end_time": 400.42,
+      "text": " il y a tous les prix sur des sites",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": [
+        "prix"
+      ]
+    },
+    {
+      "start_time": 400.42,
+      "end_time": 402.86,
+      "text": " là j'avais essayé de faire un défi",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 402.86,
+      "end_time": 405.14,
+      "text": " dans le 8ème",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 405.14,
+      "end_time": 406.86,
+      "text": " alors je ne sais pas si c'est parce que c'est le 8ème",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 406.86,
+      "end_time": 408.82,
+      "text": " il me prenait",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 408.82,
+      "end_time": 410.56,
+      "text": " 290 euros par mois",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": [
+        "prix"
+      ]
+    },
+    {
+      "start_time": 413.12,
+      "end_time": 416.02,
+      "text": " Après, ça dépend aussi de la disponibilité.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": [
+        "réservation"
+      ]
+    },
+    {
+      "start_time": 416.02,
+      "end_time": 420.02,
+      "text": " Là, c'est vrai qu'on est dans un…",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 420.0,
+      "end_time": 437.0,
+      "text": " Non, non, j'ai détaillé au téléphone, j'ai fait…",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 420.0,
+      "end_time": 422.94,
+      "text": " Dans la période, on commence à être dans la haute saison, là.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 423.18,
+      "end_time": 428.96,
+      "text": " Donc, c'est pour ça aussi que peut-être leur prix manque, je ne sais pas.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": [
+        "prix"
+      ]
+    },
+    {
+      "start_time": 429.32,
+      "end_time": 432.66,
+      "text": " Ils vous ont calculé pareil, la même chose que moi.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 432.94,
+      "end_time": 435.04,
+      "text": " Donc, 5 000, vous tentez de le faire.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 435.56,
+      "end_time": 435.8,
+      "text": " Ok.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 436.52,
+      "end_time": 437.54,
+      "text": " Vous allez regarder sur le site.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 437.0,
+      "end_time": 448.0,
+      "text": " Oui, oui, j'ai regardé, ils m'ont envoyé le devis et c'était ça, j'ai dit « putain, ok, j'ai intérêt à vite actionner ce genre de travaux ».",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 444.26,
+      "end_time": 445.24,
+      "text": " Oui, c'est pour ça.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 446.06,
+      "end_time": 448.78,
+      "text": " En fait, c'est ça.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 448.78,
+      "end_time": 450.02,
+      "text": " Il faut...",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 450.0,
+      "end_time": 450.94,
+      "text": " Mh-hm.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 450.0,
+      "end_time": 451.58,
+      "text": " étudier tout ça parce que",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 451.58,
+      "end_time": 453.56,
+      "text": " et l'idée, c'est effectivement",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 453.56,
+      "end_time": 456.0,
+      "text": " comme vous n'allez pas devoir y aller",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 456.0,
+      "end_time": 457.96,
+      "text": " régulièrement, vous empilez, vous faites",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 457.96,
+      "end_time": 459.6,
+      "text": " un joli Tetris et",
+      "speaker": "Speaker 2",
+      "entities": [
+        {
+          "text": "Tetris",
+          "label": "MISC",
+          "start": 9,
+          "end": 15
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 459.6,
+      "end_time": 461.16,
+      "text": " vous posez ça pour",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 461.16,
+      "end_time": 464.22,
+      "text": " le temps de vos travaux. Une fois que vous les récupérez,",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 464.68,
+      "end_time": 465.7,
+      "text": " il n'y a pas besoin",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 465.7,
+      "end_time": 467.4,
+      "text": " de plus d'espace que nécessaire.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 467.68,
+      "end_time": 468.6,
+      "text": " Mh-hm.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 467.96,
+      "end_time": 470.0,
+      "text": " C'est pour ça que je pense qu'un 5 mètres",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 470.0,
+      "end_time": 471.72,
+      "text": " carrés, ce sera tout à fait indiqué.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 473.18,
+      "end_time": 473.8,
+      "text": " Là, vous voyez",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 473.8,
+      "end_time": 474.92,
+      "text": " en termes de tarifs",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": [
+        "prix"
+      ]
+    },
+    {
+      "start_time": 474.92,
+      "end_time": 477.74,
+      "text": " sur notre centre.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 477.74,
+      "end_time": 477.98,
+      "text": " Alors,",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 477.98,
+      "end_time": 480.0,
+      "text": " oui,",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 480.0,
+      "end_time": 496.42,
+      "text": " Et pourquoi moi je suis à 120 sur votre site, 5 mètres carrés, 120 euros, tarif web.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": [
+        "prix"
+      ]
+    },
+    {
+      "start_time": 480.0,
+      "end_time": 485.9,
+      "text": " Donc, sur le centre de Marseille, on sera sur 140 euros, tout inclus.",
+      "speaker": "Speaker 2",
+      "entities": [
+        {
+          "text": "Marseille",
+          "label": "LOC",
+          "start": 24,
+          "end": 33
+        }
+      ],
+      "tags": [
+        "prix"
+      ]
+    },
+    {
+      "start_time": 486.18,
+      "end_time": 489.82,
+      "text": " Donc, ça veut dire le loyer et l'assurance à 20 euros.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": [
+        "prix"
+      ]
+    },
+    {
+      "start_time": 491.22,
+      "end_time": 493.0,
+      "text": " Et là, sur l'assurance à…",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 494.82,
+      "end_time": 499.5,
+      "text": " Voilà. Non, ce n'est pas tant ça.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 496.42,
+      "end_time": 497.26,
+      "text": " Ah, tarif web.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": [
+        "prix"
+      ]
+    },
+    {
+      "start_time": 499.66,
+      "end_time": 500.34,
+      "text": " Nous, on a les mêmes.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 500.56,
+      "end_time": 502.4,
+      "text": " C'est juste que là, je vous parlais de tout inclus.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 502.56,
+      "end_time": 506.38,
+      "text": " Ça veut dire le loyer, effectivement, à 120 et l'assurance à 20 euros,",
+      "speaker": "Speaker 2",
+      "entities": [
+        {
+          "text": "Ça",
+          "label": "MISC",
+          "start": 1,
+          "end": 3
+        }
+      ],
+      "tags": [
+        "prix"
+      ]
+    },
+    {
+      "start_time": 506.38,
+      "end_time": 509.76,
+      "text": " comme je vous le disais, juste à l'instant.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 510.0,
+      "end_time": 516.5,
+      "text": " Ouais.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 510.0,
+      "end_time": 514.18,
+      "text": " Et en fait, ça couvre, pour ce prix-là, les 20 euros, 7 500 euros de biens.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": [
+        "prix"
+      ]
+    },
+    {
+      "start_time": 515.78,
+      "end_time": 520.0,
+      "text": " Après, on peut changer en fonction de votre besoin.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 520.12,
+      "end_time": 522.82,
+      "text": " Si vous me dites qu'il y a plus, on peut augmenter.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 522.94,
+      "end_time": 524.76,
+      "text": " S'il y a moins, on peut descendre.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 523.26,
+      "end_time": 525.44,
+      "text": " Ouais, ouais, ouais, ouais.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 525.28,
+      "end_time": 526.82,
+      "text": " C'est souple chez nous.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 527.74,
+      "end_time": 530.0,
+      "text": " OK. Et du coup...",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 532.3,
+      "end_time": 536.58,
+      "text": " Est-ce que vous voulez peut-être venir voir un petit peu à quoi ça ressemble,",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 534.0,
+      "end_time": 538.04,
+      "text": " Ouais, ouais.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 536.84,
+      "end_time": 538.38,
+      "text": " voir un peu aussi les accès ?",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 538.38,
+      "end_time": 539.98,
+      "text": " C'est toujours bien aussi de voir ce qu'on a.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": [
+        "horaires"
+      ]
+    },
+    {
+      "start_time": 540.0,
+      "end_time": 542.6,
+      "text": " ouais alors ça ça serait bien parce que",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 540.0,
+      "end_time": 540.7,
+      "text": " en face d'un prix.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": [
+        "prix"
+      ]
+    },
+    {
+      "start_time": 542.6,
+      "end_time": 544.72,
+      "text": " j'arriverais plus à m'imaginer comment",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 544.72,
+      "end_time": 545.86,
+      "text": " on peut foutre les trucs",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 544.8,
+      "end_time": 545.2,
+      "text": " Oui.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 545.86,
+      "end_time": 547.48,
+      "text": " alors volontiers",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 547.48,
+      "end_time": 549.82,
+      "text": " attendez",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 549.82,
+      "end_time": 552.7,
+      "text": " vous êtes aux Arnavaux",
+      "speaker": "Speaker 1",
+      "entities": [
+        {
+          "text": "Arnavaux",
+          "label": "LOC",
+          "start": 15,
+          "end": 23
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 552.7,
+      "end_time": 556.56,
+      "text": " je sais pas",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 553.2,
+      "end_time": 555.0,
+      "text": " On est rue Charles-Tellier",
+      "speaker": "Speaker 2",
+      "entities": [
+        {
+          "text": "rue Charles-Tellier",
+          "label": "LOC",
+          "start": 8,
+          "end": 27
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 555.0,
+      "end_time": 556.66,
+      "text": " dans le 14e.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 556.56,
+      "end_time": 557.96,
+      "text": " ah non je",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 557.96,
+      "end_time": 560.54,
+      "text": " je suis très très chiote",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 560.54,
+      "end_time": 561.66,
+      "text": " si vous voulez je connais pas",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 561.66,
+      "end_time": 562.88,
+      "text": " je connais pas les",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 562.88,
+      "end_time": 565.68,
+      "text": " non mais c'est pas grave",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 562.96,
+      "end_time": 564.68,
+      "text": " Qu'est-ce qu'on a à côté?",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 564.96,
+      "end_time": 566.06,
+      "text": " On a...",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 565.68,
+      "end_time": 567.14,
+      "text": " je le trouve",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 566.06,
+      "end_time": 566.26,
+      "text": " Oui.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 567.14,
+      "end_time": 569.84,
+      "text": " c'est pas non plus c'est Marseille",
+      "speaker": "Speaker 1",
+      "entities": [
+        {
+          "text": "Marseille",
+          "label": "LOC",
+          "start": 26,
+          "end": 35
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 568.54,
+      "end_time": 569.32,
+      "text": " Oui, c'est vrai.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 569.32,
+      "end_time": 570.0,
+      "text": " Avec...",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 569.84,
+      "end_time": 569.98,
+      "text": " non",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 570.0,
+      "end_time": 570.7,
+      "text": " c'est un autre truc.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 570.0,
+      "end_time": 573.22,
+      "text": " un GPS et un téléphone,",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 573.0,
+      "end_time": 574.32,
+      "text": " Oui, oui, oui, oui.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 573.34,
+      "end_time": 574.04,
+      "text": " on fait des miracles.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 575.66,
+      "end_time": 576.7,
+      "text": " C'est juste le cœur.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 577.78,
+      "end_time": 579.38,
+      "text": " Ouais, alors je vais passer.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 579.6,
+      "end_time": 580.92,
+      "text": " Il faut que je vous dise quand ou pas.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 581.06,
+      "end_time": 582.7,
+      "text": " Non, non, non, à votre convenance.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 582.9,
+      "end_time": 585.02,
+      "text": " Ce que je fais, c'est que je prends juste votre nom,",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 585.1,
+      "end_time": 587.28,
+      "text": " votre prénom, si vous voulez bien, pour le mettre de côté.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 585.44,
+      "end_time": 585.84,
+      "text": " Ouais.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 588.02,
+      "end_time": 588.9,
+      "text": " Foujol Margot.",
+      "speaker": "Speaker 1",
+      "entities": [
+        {
+          "text": "Foujol Margot",
+          "label": "PER",
+          "start": 1,
+          "end": 14
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 588.08,
+      "end_time": 589.22,
+      "text": " Ça vous engage...",
+      "speaker": "Speaker 2",
+      "entities": [
+        {
+          "text": "Ça",
+          "label": "MISC",
+          "start": 1,
+          "end": 3
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 589.22,
+      "end_time": 590.84,
+      "text": " Pardon. Oui, je vous écoute",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 590.84,
+      "end_time": 592.0,
+      "text": " pour l'orthographe, pour être sûre.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 591.36,
+      "end_time": 595.24,
+      "text": " F-O-U-J-O-L-S",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 595.24,
+      "end_time": 597.28,
+      "text": " Margot,",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 596.14,
+      "end_time": 596.7,
+      "text": " Hum-hum.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 597.28,
+      "end_time": 599.08,
+      "text": " M-A-R-G-A-V-I-X.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 599.08,
+      "end_time": 600.02,
+      "text": " Vous voulez me dire",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 599.38,
+      "end_time": 599.94,
+      "text": " Hum-hum.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 600.0,
+      "end_time": 602.0,
+      "text": " C'est mon mail, vous voulez...",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 600.0,
+      "end_time": 605.44,
+      "text": " Le téléphone qui s'affiche, c'est, j'imagine, le bon.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 603.12,
+      "end_time": 605.04,
+      "text": " C'est le mien.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 605.62,
+      "end_time": 606.12,
+      "text": " C'est parfait.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 605.64,
+      "end_time": 606.32,
+      "text": " Ouais, ouais.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 606.26,
+      "end_time": 607.92,
+      "text": " C'est celui qui finit par 56, 47.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 608.54,
+      "end_time": 608.98,
+      "text": " Ouais.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 608.86,
+      "end_time": 609.26,
+      "text": " Parfait.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 609.84,
+      "end_time": 612.62,
+      "text": " Eh bien, écoutez, je mets donc le 5 mètres carrés de côté.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 613.88,
+      "end_time": 615.88,
+      "text": " Si vous avez un doute, il n'y a pas de souci.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 615.98,
+      "end_time": 619.86,
+      "text": " On pourra vous montrer un autre volume.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 620.36,
+      "end_time": 626.44,
+      "text": " Ouais, oui, je vais passer...",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 621.4,
+      "end_time": 624.62,
+      "text": " Et vous, vous pensez passer là cette semaine ?",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 626.44,
+      "end_time": 628.2,
+      "text": " Je suis plutôt tranquille,",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 628.2,
+      "end_time": 629.66,
+      "text": " donc je pense que je passerai jeudi matin.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 630.0,
+      "end_time": 639.26,
+      "text": " Vous êtes adorable, merci beaucoup",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 630.0,
+      "end_time": 633.28,
+      "text": " D'accord. Eh bien, parfait. C'est noté.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 633.54,
+      "end_time": 637.52,
+      "text": " On vous attend jeudi matin. Si vous avez d'autres questions d'ici là, surtout n'hésitez pas.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 638.16,
+      "end_time": 640.86,
+      "text": " Et puis, on est là pour ça.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 639.26,
+      "end_time": 643.06,
+      "text": " Merci beaucoup",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 643.06,
+      "end_time": 646.44,
+      "text": " Merci, au revoir",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 643.36,
+      "end_time": 646.96,
+      "text": " Merci à vous. Bonne fin de journée, Madame Pougeol. Au revoir.",
+      "speaker": "Speaker 2",
+      "entities": [
+        {
+          "text": "Bonne",
+          "label": "PER",
+          "start": 15,
+          "end": 20
+        },
+        {
+          "text": "Madame Pougeol",
+          "label": "PER",
+          "start": 37,
+          "end": 51
+        }
+      ],
+      "tags": []
+    }
+  ],
+  "dialogue_summary": {
+    "total_segments": 310,
+    "total_duration": 646.96,
+    "tags": [
+      "horaires",
+      "prix",
+      "sécurité",
+      "réservation"
+    ]
+  },
+  "conversation_metadata": {
+    "id": "unique_id",
+    "type": ["first_contact", "technical_support", "complaint", "follow_up"],
+    "duration": "float",
+    "date": "timestamp",
+    "service_category": ["storage", "payment", "access", "other"],
+    "resolution_status": "string"
+  },
+  "participants": {
+    "agent": {
+      "id": "anonymized_id",
+      "department": "string"
+    },
+    "customer": {
+      "segment": "string",
+      "history_reference": "string"
+    }
+  },
+  "interaction": {
+    "segments": [
+      {
+        "id": "segment_id",
+        "speaker": "agent|customer",
+        "timestamp": "float",
+        "content": "string",
+        "intent": "string",
+        "entities": [],
+        "sentiment": "float"
+      }
+    ],
+    "topics": [],
+    "key_moments": []
+  },
+  "outcome": {
+    "resolution_type": "string",
+    "follow_up_required": "boolean",
+    "key_decisions": [],
+    "action_items": []
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "metadata": {
+    "filename": "bouillac.mp3",
+    "duration": 239.98,
+    "date_transcription": "2025-04-11T12:19:16.444905",
+    "model": "whisper-large",
+    "processing": "mp3-transcription"
+  },
+  "speakers": {
+    "Speaker 1": {
+      "id": "Speaker 1",
+      "name": "Client",
+      "segments_count": 12
+    },
+    "Speaker 2": {
+      "id": "Speaker 2",
+      "name": "Agent",
+      "segments_count": 13
+    }
+  },
+  "segments": [
+    {
+      "start_time": 0.1,
+      "end_time": 7.04,
+      "text": " Bonjour, bienvenue chez Annex Bouliac. Cet appel peut être enregistré. Pour vous opposer, dites « Refuser ».",
+      "speaker": "Speaker 1",
+      "entities": [
+        {
+          "text": "Bonjour",
+          "label": "PER",
+          "start": 1,
+          "end": 8
+        },
+        {
+          "text": "Annex Bouliac",
+          "label": "PER",
+          "start": 25,
+          "end": 38
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 7.04,
+      "end_time": 15.16,
+      "text": " Tous nos conseillers sont actuellement en ligne. Afin d'éviter d'attendre, expliquez-moi votre situation avec une phrase ou deux, et je vous aiderai immédiatement.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 18.240000000000002,
+      "end_time": 24.900000000000002,
+      "text": " Oui, je compte annuler mon box et je voulais savoir comment procéder.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 30.0,
+      "end_time": 35.28,
+      "text": " Je comprends que vous souhaitez annuler votre box, mais je ne peux pas traiter les annulations de préavis.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 35.88,
+      "end_time": 41.58,
+      "text": " Pourriez-vous me dire si vous souhaitez faire un nouveau préavis, ou si vous avez des questions sur la procédure de préavis?",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 43.0,
+      "end_time": 45.06,
+      "text": " Sur la procédure de préavis.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 47.34,
+      "end_time": 52.34,
+      "text": " Vous devrez nous informer de la date de dépôt de votre préavis, 15 jours avant votre départ.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 52.34,
+      "end_time": 60.120000000000005,
+      "text": " Vous devrez nettoyer votre box et de le rendre dans l'état dans lequel vous l'avez trouvé, pour éviter tout frais supplémentaire, au maximum.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 60.0,
+      "end_time": 73.9,
+      "text": " Maximum le dernier jour de préavis. Si vous louez votre cadenas, merci de le déposer ouvert dans la boîte aux lettres destinée à cet effet à l'extérieur de l'agence. Si vous le souhaitez, nous pouvons faire la démarche ensemble. Voulez-vous enclencher votre préavis?",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 76.28,
+      "end_time": 76.76,
+      "text": " Oui.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 85.14,
+      "end_time": 85.62,
+      "text": " Allô?",
+      "speaker": "Speaker 2",
+      "entities": [
+        {
+          "text": "Allô",
+          "label": "PER",
+          "start": 1,
+          "end": 5
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 85.62,
+      "end_time": 90.16,
+      "text": " À quelle date souhaitez-vous déposer votre préavis?",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 90.0,
+      "end_time": 110.66,
+      "text": " A partir d'aujourd'hui, nous sommes le 10 avril 2025, je dépose le préavis.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 110.66,
+      "end_time": 119.46000000000001,
+      "text": " Je vous rappelle que la date de préavis doit nous être communiquée 15 jours avant votre départ.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 120.0,
+      "end_time": 125.16,
+      "text": " Aussi, nous allons retenir la date du 25 4 2025. Êtes-vous d'accord?",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 128.42,
+      "end_time": 130.24,
+      "text": " Qu'est-ce qu'il nous raconte là?",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 131.38,
+      "end_time": 141.82,
+      "text": " Je vous rappelle que la date de préavis doit nous être communiquée 15 jours avant votre départ. Aussi, nous allons retenir la date du 25 4 2025. Êtes-vous d'accord?",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 143.82,
+      "end_time": 144.34,
+      "text": " Oui.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 150.0,
+      "end_time": 165.86,
+      "text": " Je note. Merci de nettoyer votre box et de le rendre dans l'état dans lequel vous l'avez trouvé, pour éviter tout frais supplémentaire, au maximum le dernier jour de préavis.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 165.86,
+      "end_time": 174.38,
+      "text": " Si vous louez votre cadenas, merci de le déposer ouvert dans la boîte aux lettres destinée à cet effet à l'extérieur de l'agence. Avez-vous une autre demande?",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 176.64,
+      "end_time": 177.0,
+      "text": " Non.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 180.0,
+      "end_time": 189.12,
+      "text": " Si vous avez encore un instant, je souhaiterais cueillir votre avis. 5 étant la meilleure note, comment évaluez-vous notre conversation de 1 à 5?",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 194.88,
+      "end_time": 195.44,
+      "text": " 3.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 198.32,
+      "end_time": 206.68,
+      "text": " Bien noté, nous vous remercions pour votre appel. N'hésitez pas à vous rendre sur votre espace client ou à télécharger notre application mobile. Bonne journée.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 210.0,
+      "end_time": 239.98,
+      "text": " Sous-titrage ST' 501",
+      "speaker": "Speaker 2",
+      "entities": [
+        {
+          "text": "Sous-titrage ST' 501",
+          "label": "MISC",
+          "start": 1,
+          "end": 21
+        }
+      ],
+      "tags": []
+    }
+  ],
+  "dialogue_summary": {
+    "total_segments": 25,
+    "total_duration": 239.98,
+    "tags": []
+  }
+}

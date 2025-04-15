@@ -1,0 +1,1070 @@
+{
+  "metadata": {
+    "filename": "saint-etienne.wav",
+    "duration": 329.12,
+    "date_transcription": "2025-04-09T14:24:13.807816",
+    "model": "whisper-large",
+    "processing": "segmented-improved"
+  },
+  "speakers": {
+    "Speaker 1": {
+      "id": "Speaker 1",
+      "name": "Client",
+      "segments_count": 54
+    },
+    "Speaker 2": {
+      "id": "Speaker 2",
+      "name": "Agent",
+      "segments_count": 54
+    }
+  },
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 9.06,
+      "text": " Oui, bonjour, je vous appelle pour un renseignement, s'il vous plaît.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 0.0,
+      "end_time": 29.98,
+      "text": " Utilisez votre espace client sur Annex.com ou...",
+      "speaker": "Speaker 2",
+      "entities": [
+        {
+          "text": "Utilisez votre espace client",
+          "label": "MISC",
+          "start": 1,
+          "end": 29
+        },
+        {
+          "text": "Annex.com",
+          "label": "MISC",
+          "start": 34,
+          "end": 43
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 9.16,
+      "end_time": 13.620000000000001,
+      "text": " J'ai essayé de mettre en place la location d'un box sur Saint-Étienne par Internet,",
+      "speaker": "Speaker 1",
+      "entities": [
+        {
+          "text": "Saint-Étienne",
+          "label": "LOC",
+          "start": 57,
+          "end": 70
+        },
+        {
+          "text": "Internet",
+          "label": "MISC",
+          "start": 75,
+          "end": 83
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 13.88,
+      "end_time": 17.44,
+      "text": " mais du coup, j'ai eu un message d'erreur comme quoi je ne pouvais pas le faire.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 20.96,
+      "end_time": 29.92,
+      "text": " Au nom de Garcia, alors en fait, c'est parce que du coup, j'ai du mobilier des affaires personnelles à stocker.",
+      "speaker": "Speaker 1",
+      "entities": [
+        {
+          "text": "Garcia",
+          "label": "LOC",
+          "start": 11,
+          "end": 17
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 30.0,
+      "end_time": 33.02,
+      "text": " et du coup",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 30.0,
+      "end_time": 30.76,
+      "text": " D'accord.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 33.02,
+      "end_time": 34.96,
+      "text": " je suis allé sur votre site internet",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 33.64,
+      "end_time": 35.36,
+      "text": " Oui ?",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 34.96,
+      "end_time": 37.24,
+      "text": " et je voulais louer au tarif web",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": [
+        "prix"
+      ]
+    },
+    {
+      "start_time": 35.36,
+      "end_time": 40.2,
+      "text": " D'accord.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 37.24,
+      "end_time": 39.36,
+      "text": " un box de 3m2",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 39.36,
+      "end_time": 42.14,
+      "text": " et du coup en fait",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 42.14,
+      "end_time": 44.1,
+      "text": " quand je clique sur",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 44.1,
+      "end_time": 46.4,
+      "text": " réserver ça me met soit",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 46.4,
+      "end_time": 49.24,
+      "text": " ça me met une petite",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 49.24,
+      "end_time": 51.22,
+      "text": " fenêtre avec deux choses et moi j'ai choisi la meilleure",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 51.22,
+      "end_time": 53.44,
+      "text": " option en fait c'est à dire de faire le contrat directement",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 53.44,
+      "end_time": 55.36,
+      "text": " et de louer sauf que quand je clique",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 54.36,
+      "end_time": 55.04,
+      "text": " D'accord.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 55.36,
+      "end_time": 56.879999999999995,
+      "text": " sur louer après ça me",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 56.879999999999995,
+      "end_time": 58.8,
+      "text": " met un lien erreur",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 58.8,
+      "end_time": 60.0,
+      "text": " c'est à dire ça me met un lien erreur",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 60.0,
+      "end_time": 63.7,
+      "text": " Vincent, fatale erreur, comme si le site en fait crachait.",
+      "speaker": "Speaker 1",
+      "entities": [
+        {
+          "text": "Vincent",
+          "label": "PER",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 60.0,
+      "end_time": 69.54,
+      "text": " D'accord. Écoutez, si vous voulez, je peux vous faire la promotion par téléphone, le même tarif.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": [
+        "prix"
+      ]
+    },
+    {
+      "start_time": 69.68,
+      "end_time": 71.56,
+      "text": " Ouais, ok, très bien, allez, pas de souci.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 71.5,
+      "end_time": 74.0,
+      "text": " Alors, vous avez besoin pour quand ?",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 73.7,
+      "end_time": 78.32,
+      "text": " Bon, le plus vite possible, après je peux venir, je peux commencer à stocker jeudi après-midi.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 75.18,
+      "end_time": 75.38,
+      "text": " Oui.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 78.6,
+      "end_time": 82.24000000000001,
+      "text": " Oui, à partir du jeudi après-midi. Allez, hop, je le note.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 83.06,
+      "end_time": 86.0,
+      "text": " Donc, c'est suite à un déménagement ?",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 85.9,
+      "end_time": 86.94,
+      "text": " Oui, c'est ça, exactement.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 87.0,
+      "end_time": 87.16,
+      "text": " Oui.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 87.46000000000001,
+      "end_time": 89.98,
+      "text": " D'accord. La durée de stockage, vous la connaissez à peu près ?",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 90.0,
+      "end_time": 99.02,
+      "text": " Non, difficilement parce qu'en fait, là, on déménage à l'étranger et en fait, le temps de savoir si on peut tout faire venir par transporteur ou pas, du coup, je préfère stocker.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 90.0,
+      "end_time": 119.98,
+      "text": " D'accord.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 99.02,
+      "end_time": 102.18,
+      "text": " Donc, on va dire potentiellement entre six mois et un an, je pense.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 107.94,
+      "end_time": 110.02,
+      "text": " Je ne vous entends pas très bien. De quoi, pardon ?",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 110.02,
+      "end_time": 120.02,
+      "text": " Non, non, non, j'avais déjà fait pour une activité professionnelle et c'était…",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 120.0,
+      "end_time": 124.96,
+      "text": " je me souviens plus le nom c'était là c'était l'entreprise qui était vers",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 120.0,
+      "end_time": 134.44,
+      "text": " C'est un peu la même chose, c'est accessible 7 jours sur 7 de 6h à 23h.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": [
+        "horaires"
+      ]
+    },
+    {
+      "start_time": 124.96,
+      "end_time": 128.42,
+      "text": " carter cash en dessous de montrénaud",
+      "speaker": "Speaker 1",
+      "entities": [
+        {
+          "text": "montrénaud",
+          "label": "PER",
+          "start": 27,
+          "end": 37
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 128.88,
+      "end_time": 132.32,
+      "text": " ouais voilà locacase exactement",
+      "speaker": "Speaker 1",
+      "entities": [
+        {
+          "text": "locacase",
+          "label": "PER",
+          "start": 13,
+          "end": 21
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 134.06,
+      "end_time": 137.18,
+      "text": " très bien",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 135.44,
+      "end_time": 139.04,
+      "text": " On a une alarme individuelle par box, le bâtiment est sous vidéosurveillance.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": [
+        "sécurité"
+      ]
+    },
+    {
+      "start_time": 139.52,
+      "end_time": 141.94,
+      "text": " hum hum",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 140.44,
+      "end_time": 143.4,
+      "text": " On met à disposition, chaleur et transmettre pour déplacer vos biens facilement.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 143.68,
+      "end_time": 146.76,
+      "text": " ok super très bien",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 145.4,
+      "end_time": 148.54,
+      "text": " J'ai des 3,5 m² de disponibles.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 146.76,
+      "end_time": 149.76,
+      "text": " oui",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 150.0,
+      "end_time": 158.38,
+      "text": " Je ne me souviens plus, je crois que c'était 25 euros sur les deux premières factures, je crois.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": [
+        "prix"
+      ]
+    },
+    {
+      "start_time": 150.0,
+      "end_time": 152.26,
+      "text": " Vous aviez vu quel tarif sur notre site internet.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": [
+        "prix"
+      ]
+    },
+    {
+      "start_time": 160.22,
+      "end_time": 161.44,
+      "text": " Les 3 mètres carrés.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 162.26,
+      "end_time": 163.38,
+      "text": " Pour 3 mètres carrés, oui.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 163.36,
+      "end_time": 164.54,
+      "text": " Les 3 mètres carrés.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 165.54,
+      "end_time": 170.3,
+      "text": " Le tarif normal en rez-de-chaussée, c'est 61 euros par mois.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": [
+        "prix"
+      ]
+    },
+    {
+      "start_time": 170.7,
+      "end_time": 171.1,
+      "text": " Ok.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 171.4,
+      "end_time": 173.5,
+      "text": " Plus 15 euros pour l'assurance de stockage.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": [
+        "prix"
+      ]
+    },
+    {
+      "start_time": 173.66,
+      "end_time": 177.24,
+      "text": " Et vous avez 50% sur ce tarif-là, sur la première et la seconde facture.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": [
+        "prix"
+      ]
+    },
+    {
+      "start_time": 177.24,
+      "end_time": 180.24,
+      "text": " Merci.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 178.38,
+      "end_time": 179.34,
+      "text": " Ok, d'accord.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 180.0,
+      "end_time": 202.28,
+      "text": " D'accord. Et ensuite, vous m'avez dit que c'est 76 ans.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 180.0,
+      "end_time": 190.38,
+      "text": " Vous faites 38€ les deux premières factures, enfin on va dire le mois d'avril du coup ça va être le prorata avec les 50% et le mois de mai vous payerez 38€.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 193.96,
+      "end_time": 201.98,
+      "text": " Et ensuite, après nous allons être à 71,15€, 76€ par mois.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 202.28,
+      "end_time": 205.12,
+      "text": " OK. Oui, très bien. Parfait.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 203.0,
+      "end_time": 204.0,
+      "text": " Ça vous convient ?",
+      "speaker": "Speaker 2",
+      "entities": [
+        {
+          "text": "Ça",
+          "label": "MISC",
+          "start": 1,
+          "end": 3
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 205.08,
+      "end_time": 208.12,
+      "text": " Allez, je vais créer le dossier, donc je vais prendre votre nom.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 205.12,
+      "end_time": 210.0,
+      "text": " Oui, Garcia, GRC.",
+      "speaker": "Speaker 1",
+      "entities": [
+        {
+          "text": "Garcia",
+          "label": "LOC",
+          "start": 6,
+          "end": 12
+        },
+        {
+          "text": "GRC",
+          "label": "ORG",
+          "start": 14,
+          "end": 17
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 210.0,
+      "end_time": 218.68,
+      "text": " Josée, J-O-S-E-6, Manuel, M-A-N-U-E-L.",
+      "speaker": "Speaker 1",
+      "entities": [
+        {
+          "text": "Josée",
+          "label": "PER",
+          "start": 1,
+          "end": 6
+        },
+        {
+          "text": "J-O-S-E-6",
+          "label": "MISC",
+          "start": 8,
+          "end": 17
+        },
+        {
+          "text": "Manuel",
+          "label": "PER",
+          "start": 19,
+          "end": 25
+        },
+        {
+          "text": "M-A-N-U-E",
+          "label": "LOC",
+          "start": 27,
+          "end": 36
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 210.0,
+      "end_time": 212.48,
+      "text": " Je vais prendre votre prénom.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 215.58,
+      "end_time": 215.82,
+      "text": " Oui.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 218.96,
+      "end_time": 221.22,
+      "text": " D'accord. Je vais prendre, s'il vous plaît, une adresse postale.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 222.08,
+      "end_time": 225.48,
+      "text": " 21, Boulevard Daguerre, 42100, Saint-Etienne.",
+      "speaker": "Speaker 1",
+      "entities": [
+        {
+          "text": "Boulevard Daguerre",
+          "label": "MISC",
+          "start": 5,
+          "end": 23
+        },
+        {
+          "text": "Saint-Etienne",
+          "label": "LOC",
+          "start": 32,
+          "end": 45
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 225.48,
+      "end_time": 239.98,
+      "text": " Oui, 0610-0803.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 230.7,
+      "end_time": 232.16,
+      "text": " Ah, Saint-Etienne.",
+      "speaker": "Speaker 2",
+      "entities": [
+        {
+          "text": "Saint-Etienne",
+          "label": "LOC",
+          "start": 5,
+          "end": 18
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 234.84,
+      "end_time": 236.54,
+      "text": " Je vais prendre un numéro de téléphone mobile.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 240.0,
+      "end_time": 248.32,
+      "text": " Oui, alors tout attaché, sans accent, minuscule,",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 240.0,
+      "end_time": 244.8,
+      "text": " D'accord. Je vais prendre une adresse e-mail.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 248.82,
+      "end_time": 266.52,
+      "text": " Oui, alors du coup,",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 252.48,
+      "end_time": 254.92,
+      "text": " Oui. Oui.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 260.14,
+      "end_time": 265.5,
+      "text": " D'accord. Avec ceci, je vais prendre un numéro de téléphone à contacter en cas d'urgence autre que le vôtre, un numéro de secours.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 270.0,
+      "end_time": 287.92,
+      "text": " 14 47 c'est ma mère ou viri tel v i r i c e l d'accord",
+      "speaker": "Speaker 1",
+      "entities": [
+        {
+          "text": "v i r i c e",
+          "label": "PER",
+          "start": 33,
+          "end": 44
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 270.0,
+      "end_time": 272.88,
+      "text": " d'accord, et cette personne",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 272.88,
+      "end_time": 277.98,
+      "text": " d'accord, elle porte le même nom que vous ?",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 277.98,
+      "end_time": 278.74,
+      "text": " Biricel, d'accord",
+      "speaker": "Speaker 2",
+      "entities": [
+        {
+          "text": "Biricel",
+          "label": "LOC",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 278.74,
+      "end_time": 282.74,
+      "text": " d'accord, allez, pas de problème",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 282.74,
+      "end_time": 285.02,
+      "text": " donc là je vais créer le dossier pour jeudi",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 285.02,
+      "end_time": 287.26,
+      "text": " donc je vais vous envoyer un mail",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 287.26,
+      "end_time": 288.72,
+      "text": " à l'intérieur du mail tout simplement il y aura un lien",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 288.72,
+      "end_time": 291.62,
+      "text": " vous cliquerez dessus et vous pourrez valider le dossier depuis chez vous directement",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 291.62,
+      "end_time": 295.22,
+      "text": " ensuite vous allez recevoir un second mail",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 292.12,
+      "end_time": 295.16,
+      "text": " ok super très bien",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 295.22,
+      "end_time": 296.94,
+      "text": " pour faire le règlement du mois d'avril au ProRata",
+      "speaker": "Speaker 2",
+      "entities": [
+        {
+          "text": "ProRata",
+          "label": "MISC",
+          "start": 44,
+          "end": 51
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 296.94,
+      "end_time": 299.38,
+      "text": " voilà, et ensuite un troisième mail",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 299.38,
+      "end_time": 300.02,
+      "text": " pour mettre en place un plan",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 300.0,
+      "end_time": 303.64,
+      "text": " Super, très bien, c'est noté.",
+      "speaker": "Speaker 1",
+      "entities": [
+        {
+          "text": "Super",
+          "label": "MISC",
+          "start": 1,
+          "end": 6
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 300.0,
+      "end_time": 304.88,
+      "text": " automatique le premier de chaque mois voilà est-ce que vous avez un cadenas",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 304.88,
+      "end_time": 308.0,
+      "text": " pour votre box chez vous si vous n'avez pas moi je peux vous en louer un au",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 308.0,
+      "end_time": 311.54,
+      "text": " taille de 1,99 euros par mois",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": [
+        "prix"
+      ]
+    },
+    {
+      "start_time": 310.38,
+      "end_time": 312.22,
+      "text": " Oui, très bien, vous pouvez le mettre dans l'allocation.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 312.52,
+      "end_time": 314.32,
+      "text": " Comme ça, au moins, je présume que vous avez des cadenas",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 314.32,
+      "end_time": 316.86,
+      "text": " qui sont quand même beaucoup plus costauds que ceux qu'on peut avoir.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 317.12,
+      "end_time": 320.72,
+      "text": " ouais c'est du master lock c'est fait pour",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 319.38,
+      "end_time": 321.94,
+      "text": " Ok, très bien, vous pouvez rajouter dessus, pas de souci.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 321.52,
+      "end_time": 325.94,
+      "text": " allez bah je vous envoie tout ça par mail dans l'après midi",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 324.4,
+      "end_time": 325.9,
+      "text": " Super, c'est gentil. Merci beaucoup.",
+      "speaker": "Speaker 1",
+      "entities": [
+        {
+          "text": "Super",
+          "label": "MISC",
+          "start": 1,
+          "end": 6
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 325.94,
+      "end_time": 329.12,
+      "text": " y'a pas de quoi bonne journée au revoir",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 327.38,
+      "end_time": 327.9,
+      "text": " Merci, au revoir.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    }
+  ],
+  "dialogue_summary": {
+    "total_segments": 108,
+    "total_duration": 329.12,
+    "tags": [
+      "horaires",
+      "sécurité",
+      "prix"
+    ]
+  }
+}

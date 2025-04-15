@@ -1,0 +1,1080 @@
+{
+  "metadata": {
+    "filename": "montpellier.wav",
+    "duration": 257.96,
+    "date_transcription": "2025-04-09T09:09:55.460932",
+    "model": "whisper-large",
+    "processing": "segmented-improved"
+  },
+  "speakers": {
+    "Speaker 1": {
+      "id": "Speaker 1",
+      "name": "Client",
+      "segments_count": 53
+    },
+    "Speaker 2": {
+      "id": "Speaker 2",
+      "name": "Agent",
+      "segments_count": 59
+    }
+  },
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 29.98,
+      "text": " Oui, bonjour.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 0.0,
+      "end_time": 6.88,
+      "text": " Utilisez votre espace client sur Annex.com ou téléchargez notre application mobile Annex.",
+      "speaker": "Speaker 2",
+      "entities": [
+        {
+          "text": "Utilisez votre espace client",
+          "label": "MISC",
+          "start": 1,
+          "end": 29
+        },
+        {
+          "text": "Annex.com",
+          "label": "MISC",
+          "start": 34,
+          "end": 43
+        },
+        {
+          "text": "Annex",
+          "label": "ORG",
+          "start": 84,
+          "end": 89
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 6.88,
+      "end_time": 12.620000000000001,
+      "text": " Vous y trouverez l'ensemble de vos factures, vous pourrez récupérer votre code d'accès ou donner votre préavis.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 12.9,
+      "end_time": 16.6,
+      "text": " Vous pourrez aussi mettre à jour vos coordonnées postales ou bancaires.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 16.9,
+      "end_time": 20.22,
+      "text": " Il vous sera même possible de payer en ligne votre mensualité.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 20.56,
+      "end_time": 24.84,
+      "text": " Rendez-vous sur votre espace client sur www.annex.com",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 24.84,
+      "end_time": 28.48,
+      "text": " Annex, Corinne, bonjour, que puis-je faire pour vous ?",
+      "speaker": "Speaker 2",
+      "entities": [
+        {
+          "text": "Corinne",
+          "label": "PER",
+          "start": 8,
+          "end": 15
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 30.0,
+      "end_time": 33.08,
+      "text": " elle est en rendez-vous actuellement",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 30.28,
+      "end_time": 31.16,
+      "text": " Périne n'est pas là.",
+      "speaker": "Speaker 1",
+      "entities": [
+        {
+          "text": "Périne",
+          "label": "PER",
+          "start": 1,
+          "end": 7
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 33.08,
+      "end_time": 33.98,
+      "text": " mais peut-être que je peux",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 33.8,
+      "end_time": 35.08,
+      "text": " Elle ne s'entendait",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 33.98,
+      "end_time": 39.04,
+      "text": " oui",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 35.08,
+      "end_time": 35.94,
+      "text": " vous, d'accord.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 36.6,
+      "end_time": 38.36,
+      "text": " Eh bien, écoutez, je suis Madame Biache",
+      "speaker": "Speaker 1",
+      "entities": [
+        {
+          "text": "Madame Biache",
+          "label": "PER",
+          "start": 27,
+          "end": 40
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 38.36,
+      "end_time": 40.78,
+      "text": " et c'était pour lui dire,",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 39.04,
+      "end_time": 39.2,
+      "text": " oui",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 39.2,
+      "end_time": 54.22,
+      "text": " d'accord",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 40.84,
+      "end_time": 41.980000000000004,
+      "text": " elle m'a envoyé, enfin,",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 42.24,
+      "end_time": 44.56,
+      "text": " elle ou vous, je n'en sais rien, m'a envoyé",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 44.56,
+      "end_time": 46.56,
+      "text": " un SMS pour me dire que",
+      "speaker": "Speaker 1",
+      "entities": [
+        {
+          "text": "SMS",
+          "label": "MISC",
+          "start": 4,
+          "end": 7
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 46.56,
+      "end_time": 48.5,
+      "text": " mon compte était bloqué parce que",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 48.5,
+      "end_time": 50.68,
+      "text": " je n'avais pas, le paiement",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 50.68,
+      "end_time": 52.36,
+      "text": " n'avait pas pu se faire. Eh bien, oui, je me suis fait",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 52.36,
+      "end_time": 54.04,
+      "text": " voler ma carte et donc,",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 54.120000000000005,
+      "end_time": 55.82,
+      "text": " elle était en réfection.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 54.22,
+      "end_time": 59.72,
+      "text": " oui d'accord",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 56.32,
+      "end_time": 58.34,
+      "text": " Donc, je vais la recevoir très bientôt.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 58.34,
+      "end_time": 60.34,
+      "text": " Merci.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 59.72,
+      "end_time": 59.76,
+      "text": " d'accord",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 60.0,
+      "end_time": 62.94,
+      "text": " Si vous patientez, j'ai toujours un petit peu de temps.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": [
+        "horaires"
+      ]
+    },
+    {
+      "start_time": 60.0,
+      "end_time": 70.08,
+      "text": " Oui, écoutez, je vais transmettre l'information à Périne comme quoi votre carte est en cours,",
+      "speaker": "Speaker 2",
+      "entities": [
+        {
+          "text": "Périne",
+          "label": "PER",
+          "start": 51,
+          "end": 57
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 71.22,
+      "end_time": 76.18,
+      "text": " qu'elle va bientôt arriver et que vous pourrez faire le nécessaire dès que vous aurez votre nouvelle carte.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 74.34,
+      "end_time": 74.86,
+      "text": " Voilà.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 76.48,
+      "end_time": 77.74000000000001,
+      "text": " Bien sûr, bien sûr.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 76.76,
+      "end_time": 82.7,
+      "text": " Écoutez, voilà, effectivement, le prélèvement a été rejeté, certainement suite à l'opposition de votre carte.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 80.74000000000001,
+      "end_time": 81.2,
+      "text": " Ben oui.",
+      "speaker": "Speaker 1",
+      "entities": [
+        {
+          "text": "Ben",
+          "label": "PER",
+          "start": 1,
+          "end": 4
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 82.7,
+      "end_time": 85.72,
+      "text": " Et c'est un message automatique qui est envoyé.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 83.2,
+      "end_time": 83.72,
+      "text": " Absolument.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 83.72,
+      "end_time": 84.18,
+      "text": " Oui.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 85.72,
+      "end_time": 89.7,
+      "text": " Et donc, vous n'inquiétez pas, c'est bien noté sur votre dossier.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 90.0,
+      "end_time": 96.06,
+      "text": " Ok. Et moi, je me note que je fais le nécessaire.",
+      "speaker": "Speaker 1",
+      "entities": [
+        {
+          "text": "Ok",
+          "label": "MISC",
+          "start": 1,
+          "end": 3
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 90.0,
+      "end_time": 92.26,
+      "text": " Marie n'en aura connaissance dès son retour de son rendez-vous.",
+      "speaker": "Speaker 2",
+      "entities": [
+        {
+          "text": "Marie",
+          "label": "PER",
+          "start": 1,
+          "end": 6
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 96.2,
+      "end_time": 98.04,
+      "text": " De toute façon, pardon.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 98.62,
+      "end_time": 98.98,
+      "text": " Oui.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 99.22,
+      "end_time": 99.68,
+      "text": " Excusez-moi.",
+      "speaker": "Speaker 1",
+      "entities": [
+        {
+          "text": "Excusez",
+          "label": "MISC",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 100.3,
+      "end_time": 101.72,
+      "text": " Non, non, il n'y a pas de souci.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 103.82,
+      "end_time": 104.26,
+      "text": " Pardon.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 105.08,
+      "end_time": 105.62,
+      "text": " Excusez-moi.",
+      "speaker": "Speaker 1",
+      "entities": [
+        {
+          "text": "Excusez",
+          "label": "MISC",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 105.54,
+      "end_time": 108.7,
+      "text": " Donc, dans ces cas-là, dès que vous la recevez, vous avez...",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 106.9,
+      "end_time": 108.28,
+      "text": " Oui, vous pouvez le faire après.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 108.7,
+      "end_time": 110.56,
+      "text": " Pardon, est-ce que vous avez votre...",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 110.56,
+      "end_time": 112.7,
+      "text": " Vous avez créé votre espace abonné ou pas du tout?",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 114.76,
+      "end_time": 115.82,
+      "text": " Je n'en sais rien.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 116.26,
+      "end_time": 117.9,
+      "text": " Si vous avez l'espace abonné,",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 117.9,
+      "end_time": 120.03999999999999,
+      "text": " vous pourrez enregistrer immédiatement.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 120.0,
+      "end_time": 129.48,
+      "text": " D'accord.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 120.0,
+      "end_time": 142.22,
+      "text": " Immédiatement, si vous voulez votre nouvelle carte sur le compte, en fait, vous allez sur le site Web et vous pouvez, vous verrez, en haut à droite, vous pouvez créer votre compte avec votre numéro de téléphone, mail, numéro du box et vous pourrez faire les modifications ou nous contacter directement pour qu'on fasse les modifications ensemble. D'accord?",
+      "speaker": "Speaker 2",
+      "entities": [
+        {
+          "text": "Web",
+          "label": "MISC",
+          "start": 99,
+          "end": 102
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 139.98,
+      "end_time": 140.62,
+      "text": " D'accord.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 141.22,
+      "end_time": 143.46,
+      "text": " D'accord, vous le savez très bien.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 142.22,
+      "end_time": 146.12,
+      "text": " Très bien. Oui.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 143.78,
+      "end_time": 145.58,
+      "text": " Par contre, je voulais vous demander, Corinne,",
+      "speaker": "Speaker 1",
+      "entities": [
+        {
+          "text": "Corinne",
+          "label": "PER",
+          "start": 39,
+          "end": 46
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 146.46,
+      "end_time": 149.88,
+      "text": " je suis quand même étonnée à chaque fois des augmentations de prix.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": [
+        "prix"
+      ]
+    },
+    {
+      "start_time": 150.0,
+      "end_time": 151.68,
+      "text": " 68 euros là",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": [
+        "prix"
+      ]
+    },
+    {
+      "start_time": 150.0,
+      "end_time": 156.16,
+      "text": " Alors, je suis en train de vérifier votre dossier.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 151.68,
+      "end_time": 153.52,
+      "text": " mais c'est hors de compte",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 153.52,
+      "end_time": 155.06,
+      "text": " c'est dingue",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 155.06,
+      "end_time": 158.0,
+      "text": " 372 à 440",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 158.0,
+      "end_time": 173.76,
+      "text": " non c'est pour le mois de mai",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 158.4,
+      "end_time": 163.6,
+      "text": " Alors, effectivement, vous avez reçu un mail d'augmentation le 22 mars",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 163.6,
+      "end_time": 167.62,
+      "text": " qui a pris...",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 167.62,
+      "end_time": 171.86,
+      "text": " Donc là, ce n'est pas pour tout de suite.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 173.64,
+      "end_time": 174.8,
+      "text": " Oui, pour le mois de mai.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 173.76,
+      "end_time": 174.56,
+      "text": " ah ah",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 174.56,
+      "end_time": 176.64,
+      "text": " c'est pour le mois de mai",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 175.22,
+      "end_time": 177.88,
+      "text": " Alors, écoutez, je vais faire passer l'info à Périne,",
+      "speaker": "Speaker 2",
+      "entities": [
+        {
+          "text": "Périne",
+          "label": "PER",
+          "start": 47,
+          "end": 53
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 176.64,
+      "end_time": 178.64,
+      "text": " merci",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 178.02,
+      "end_time": 179.3,
+      "text": " qui est la responsable du site.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 179.3,
+      "end_time": 180.0,
+      "text": " Elle regardera le...",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 180.0,
+      "end_time": 189.2,
+      "text": " Oui, parce que chaque fois qu'il y a des augmentations,",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 180.0,
+      "end_time": 181.56,
+      "text": " le dossier plus précisément",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 181.56,
+      "end_time": 183.94,
+      "text": " et elle pourra vous répondre",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 183.94,
+      "end_time": 185.6,
+      "text": " par rapport à ces augmentations-là.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 189.32,
+      "end_time": 191.12,
+      "text": " je trouve que c'est exorbitant quand même.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 191.88,
+      "end_time": 195.0,
+      "text": " Je veux bien que l'électricité monte, mais quand même.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 195.02,
+      "end_time": 197.48,
+      "text": " Alors après, c'est vrai qu'on a eu des hausses",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 197.48,
+      "end_time": 201.1,
+      "text": " de nos coûts particulièrement importantes",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": [
+        "prix"
+      ]
+    },
+    {
+      "start_time": 201.1,
+      "end_time": 204.58,
+      "text": " comme les particuliers, effectivement,",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 205.2,
+      "end_time": 206.9,
+      "text": " que ce soit au niveau de la sécurité,",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": [
+        "sécurité"
+      ]
+    },
+    {
+      "start_time": 207.0,
+      "end_time": 207.44,
+      "text": " Oui.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 207.24,
+      "end_time": 208.34,
+      "text": " les prêts électriques.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 208.34,
+      "end_time": 210.34,
+      "text": " On améliore nos infrastructures.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 210.0,
+      "end_time": 239.98,
+      "text": " Sous-titrage Société Radio-Canada",
+      "speaker": "Speaker 1",
+      "entities": [
+        {
+          "text": "Société Radio-Canada",
+          "label": "ORG",
+          "start": 14,
+          "end": 34
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 210.0,
+      "end_time": 218.2,
+      "text": " infrastructure en permanence aussi, également. C'est vrai que ça implique de nombreux investissements",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 218.2,
+      "end_time": 226.86,
+      "text": " et des hausses de tarifs. Oui, alors, ce que je vais faire, je vais laisser une petite",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": [
+        "prix"
+      ]
+    },
+    {
+      "start_time": 226.86,
+      "end_time": 230.58,
+      "text": " note à Périne, parce que là, vous êtes au centre d'accueil client, et c'est vrai",
+      "speaker": "Speaker 2",
+      "entities": [
+        {
+          "text": "Périne",
+          "label": "PER",
+          "start": 8,
+          "end": 14
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 230.58,
+      "end_time": 234.94,
+      "text": " que je n'ai pas vraiment la main sur cette partie-là. Donc, en tout cas, je lui dis",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 234.94,
+      "end_time": 239.1,
+      "text": " qu'elle vous rappelle par rapport à l'augmentation, comme ça, elle pourra regarder le dossier",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 239.1,
+      "end_time": 239.58,
+      "text": " de plus près.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 240.0,
+      "end_time": 241.94,
+      "text": " Ça ne changera rien, mais bon.",
+      "speaker": "Speaker 1",
+      "entities": [
+        {
+          "text": "Ça",
+          "label": "MISC",
+          "start": 1,
+          "end": 3
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 240.0,
+      "end_time": 240.9,
+      "text": " et vous appelez",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 240.9,
+      "end_time": 245.7,
+      "text": " écoutez en tout cas",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 243.36,
+      "end_time": 244.96,
+      "text": " Il y aura toujours la sensation.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": [
+        "horaires"
+      ]
+    },
+    {
+      "start_time": 245.44,
+      "end_time": 246.92,
+      "text": " C'est bien deux fois par an, c'est pareil.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 245.7,
+      "end_time": 247.48,
+      "text": " moi je vais faire",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 247.48,
+      "end_time": 250.0,
+      "text": " je remonte toutes ces informations",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 250.0,
+      "end_time": 250.64,
+      "text": " à ma collègue",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 250.64,
+      "end_time": 252.92,
+      "text": " voilà",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 251.2,
+      "end_time": 253.24,
+      "text": " OK. Merci, Patron Pia.",
+      "speaker": "Speaker 1",
+      "entities": [
+        {
+          "text": "Patron Pia",
+          "label": "PER",
+          "start": 12,
+          "end": 22
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 252.92,
+      "end_time": 256.06,
+      "text": " merci à vous, très belle journée, au revoir",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 254.18,
+      "end_time": 254.88,
+      "text": " Au revoir.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 255.2,
+      "end_time": 255.84,
+      "text": " Au revoir.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 256.06,
+      "end_time": 257.96,
+      "text": " merci, au revoir",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    }
+  ],
+  "dialogue_summary": {
+    "total_segments": 112,
+    "total_duration": 257.96,
+    "tags": [
+      "prix",
+      "horaires",
+      "sécurité"
+    ]
+  }
+}
