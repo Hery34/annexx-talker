@@ -90,7 +90,6 @@ if not st.session_state.chatbot:
     
     1. Configurez l'assistant dans la barre latérale:
        - Entrez votre clé API OpenAI
-       - Spécifiez le chemin vers votre dossier de documents Markdown
        - Cliquez sur "Initialiser l'assistant"
     
     2. Posez vos questions dans la zone de saisie en bas de l'écran

@@ -133,18 +133,45 @@ class MarkdownChatbot:
             
             context = "\n\n---\n\n".join(context_parts)
 
+            # Intégration des règles Cursor
             system_prompt = (
                 "Vous êtes un agent commercial de l'entreprise Annexx expert basé sur une collection de documents markdown. "
-                "Vous êtes là pour venir en soutien aux équipes de vente . "
+                "Vous êtes là pour venir en soutien aux équipes de vente. "
                 "Vous pouvez vendre des produits et des services de l'entreprise Annexx. "
+                "\n\n"
+                "<CORE_PRINCIPLES>\n"
+                "1. EXPLORATION OVER CONCLUSION\n"
+                "- Never rush to conclusions\n"
+                "- Keep exploring until a solution emerges naturally\n"
+                "- Question every assumption and inference\n"
+                "2. DEPTH OF REASONING\n"
+                "- Break down complex thoughts into simple steps\n"
+                "- Embrace uncertainty and revision\n"
+                "- Express thoughts in natural conversation\n"
+                "3. THINKING PROCESS\n"
+                "- Show work-in-progress thinking\n"
+                "- Acknowledge and explore alternatives\n"
+                "- Frequently reassess and revise\n"
+                "</CORE_PRINCIPLES>\n\n"
+                "<OUTPUT_FORMAT>\n"
+                "Responses must follow:\n"
+                "  <CONTEMPLATOR>\n"
+                "  - Begin with foundational observations\n"
+                "  - Question thoroughly\n"
+                "  - Show natural progression\n"
+                "  </CONTEMPLATOR>\n"
+                "  <FINAL_ANSWER>\n"
+                "  - Clear, concise summary\n"
+                "  - Note remaining questions\n"
+                "  </FINAL_ANSWER>\n"
+                "</OUTPUT_FORMAT>\n\n"
                 "Quand vous voyez des éléments entre crochets pendant la conversation, il s'agit d'un élément de réponse qui peut être utilisé dans la réponse. "
-                "Par exemple, si vous voyez [nom_du_prospect], vous peux utiliser le nom du prospect dans ta réponse. "
+                "Par exemple, si vous voyez [nom_du_prospect], vous pouvez utiliser le nom du prospect dans votre réponse. "
                 "Ce sont des éléments pour contextualiser car vous n'avez pas accès à la base de données des prospects. "
-                "Les informations entre crochets sont uniquement pour votre connaissance interne. N'y faites JAMAIS référence directement dans votre salutation initiale." 
-                "Commencez toujours par une salutation professionnelle et chaleureuse, puis laissez le client exprimer son besoin."
-                "Vous vous appuyez constamment sur les documents fournis pour répondre aux questions des prospects ou clients."
-                "Le document qui contient les Conditions Générales de Vente est votre document de référence."
-                "Vous pouvez répondre à toutes les questions des prospects ou clients."
+                "Les informations entre crochets sont uniquement pour votre connaissance interne. N'y faites JAMAIS référence directement dans votre réponse." 
+                "Commencez toujours par une salutation professionnelle et chaleureuse, puis laissez le client exprimer son besoin. "
+                "Vous vous appuyez constamment sur les documents fournis pour répondre aux questions des prospects ou clients. "
+                "Le document qui contient les Conditions Générales de Vente est votre document de référence. "
                 "Votre tâche est de fournir des réponses précises et bien structurées en utilisant uniquement "
                 "les informations contenues dans les documents fournis. "
                 "Suivez ces directives :\n"
@@ -153,23 +180,22 @@ class MarkdownChatbot:
                 "3. Ne recopiez jamais les questions dans vos réponses\n"
                 "4. Structurez clairement vos réponses avec des paragraphes logiques\n"
                 "5. Si l'information n'est pas présente dans les documents, indiquez-le clairement\n"
-                "6. Ignorez les éléments de formatage markdown dans vos réponses\n\n"
-                "7. Soyez toujours naturel et concis dans vos réponses\n\n"
-                "8. Dans le dossiers documents/reponses, vous avez des exemples de manière de répondre efficacement\n\n"
-                "9. Des exemples de conversations-types types sont disponibles dans le dossier documents/conversations_agents\n\n"
-                "10. Basez-vous sur les exemples de conversations pour répondre aux questions des prospects ou clients\n\n"
-                "11. Si vous ne trouvez pas la réponse dans les documents, répondez que vous ne connaissez pas la réponse.\n\n"
-                "12. Si le client demande à parler à un humain, essayez d'abord de l'aider à résoudre son problème.\n\n"
-                "13. Si le client insiste pour parler à un humain, dites lui que vous allez le mettre en relation avec un expert de l'entreprise.\n\n"
-            
+                "6. Ignorez les éléments de formatage markdown dans vos réponses\n"
+                "7. Soyez toujours naturel et concis dans vos réponses\n"
+                "8. Dans le dossiers documents/reponses, vous avez des exemples de manière de répondre efficacement\n"
+                "9. Des exemples de conversations-types sont disponibles dans le dossier documents/conversations_agents\n"
+                "10. Basez-vous sur les exemples de conversations pour répondre aux questions des prospects ou clients\n"
+                "11. Si vous ne trouvez pas la réponse dans les documents, répondez que vous ne connaissez pas la réponse\n"
+                "12. Si le client demande à parler à un humain, essayez d'abord de l'aider à résoudre son problème\n"
+                "13. Si le client insiste pour parler à un humain, dites lui que vous allez le mettre en relation avec un expert de l'entreprise\n"
                 f"Voici les extraits pertinents:\n\n{context}"
             )
             
             # Construire les messages pour le chat
             messages = [{"role": "system", "content": system_prompt}]
             
-            # Ajouter l'historique récent (limité à 4 messages)
-            for msg in self.chat_history[-6:]:
+            # Ajouter l'historique récent (augmenté à 15 messages)
+            for msg in self.chat_history[-15:]:
                 messages.append(msg)
             
             # Ajouter la question actuelle
@@ -184,11 +210,23 @@ class MarkdownChatbot:
             
             answer = response.choices[0].message.content
             
-            # Mettre à jour l'historique
-            self.chat_history.append({"role": "user", "content": query})
-            self.chat_history.append({"role": "assistant", "content": answer})
-            
-            return answer
+            # Extraire uniquement la partie FINAL_ANSWER si le format est respecté
+            if "<FINAL_ANSWER>" in answer and "</FINAL_ANSWER>" in answer:
+                start_idx = answer.find("<FINAL_ANSWER>") + len("<FINAL_ANSWER>")
+                end_idx = answer.find("</FINAL_ANSWER>")
+                final_answer = answer[start_idx:end_idx].strip()
+                
+                # Mettre à jour l'historique avec la réponse filtrée
+                self.chat_history.append({"role": "user", "content": query})
+                self.chat_history.append({"role": "assistant", "content": final_answer})
+                
+                return final_answer
+            else:
+                # Si le format n'est pas respecté, renvoyer la réponse complète
+                self.chat_history.append({"role": "user", "content": query})
+                self.chat_history.append({"role": "assistant", "content": answer})
+                
+                return answer
         
         except Exception as e:
             return f"Erreur lors du traitement de votre question: {str(e)}"
