@@ -1,7 +1,7 @@
 # markdown_chatbot.py
 import os
 import glob
-import numpy as np
+import math
 import openai
 from dotenv import load_dotenv
 
@@ -79,9 +79,20 @@ class MarkdownChatbot:
             except Exception as e:
                 print(f"Erreur lors de la création des embeddings pour le lot {i}: {e}")
                 # Créer des embeddings vides en cas d'erreur
-                all_embeddings.extend([np.zeros(1536) for _ in range(len(batch_texts))])
+                all_embeddings.extend([[0.0] * 1536 for _ in range(len(batch_texts))])
         
         return all_embeddings
+    
+    def _cosine_similarity(self, vec1, vec2):
+        """Calcule la similarité cosinus entre deux vecteurs sans NumPy."""
+        dot_product = sum(a * b for a, b in zip(vec1, vec2))
+        norm_a = math.sqrt(sum(a * a for a in vec1))
+        norm_b = math.sqrt(sum(b * b for b in vec2))
+        
+        if norm_a == 0 or norm_b == 0:
+            return 0  # Éviter division par zéro
+            
+        return dot_product / (norm_a * norm_b)
     
     def _find_relevant_documents(self, query, top_k=3):
         """Trouve les documents les plus pertinents pour la requête."""
@@ -95,14 +106,15 @@ class MarkdownChatbot:
         # Calculer la similarité avec tous les documents
         similarities = []
         for doc_embedding in self.embeddings:
-            # Similarité cosinus
-            similarity = np.dot(query_embedding, doc_embedding) / (
-                np.linalg.norm(query_embedding) * np.linalg.norm(doc_embedding)
-            )
+            # Similarité cosinus sans NumPy
+            similarity = self._cosine_similarity(query_embedding, doc_embedding)
             similarities.append(similarity)
         
         # Trouver les indices des documents les plus similaires
-        top_indices = np.argsort(similarities)[-top_k:][::-1]
+        # Version sans NumPy
+        indexed_similarities = [(i, sim) for i, sim in enumerate(similarities)]
+        sorted_indices = sorted(indexed_similarities, key=lambda x: x[1], reverse=True)
+        top_indices = [idx for idx, _ in sorted_indices[:top_k]]
         
         # Retourner les documents pertinents
         relevant_docs = [self.documents[i] for i in top_indices]
