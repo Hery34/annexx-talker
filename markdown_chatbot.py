@@ -149,6 +149,12 @@ class MarkdownChatbot:
                 "4. Si l'information n'est pas présente dans les documents, indiquez-le clairement\n"
                 "5. Ignorez les éléments de formatage markdown dans vos réponses\n\n"
                 "6. Soyez toujours naturel et concis dans vos réponses\n\n"
+                "7. Dans le dossiers documents/reponses, vous avez des exemples de manière de répondre efficacement\n\n"
+                "8. Des exemples de conversations-types types sont disponibles dans le dossier documents/conversations_agents\n\n"
+                "9. Basez-vous sur les exemples de conversations pour répondre aux questions des prospects ou clients\n\n"
+                "10. Si vous ne trouvez pas la réponse dans les documents, répondez que vous ne connaissez pas la réponse.\n\n"
+                "11. Si le client demande à parler à un humain, essayez d'abord de l'aider à résoudre son problème.\n\n"
+                "12. Si le client insiste pour parler à un humain, dites lui que vous allez le mettre en relation avec un expert de l'entreprise.\n\n"
                 f"Voici les extraits pertinents:\n\n{context}"
             )
             

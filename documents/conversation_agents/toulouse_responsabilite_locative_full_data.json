@@ -1,0 +1,634 @@
+{
+  "metadata": {
+    "filename": "toulouse_responsabilite_locative.wav",
+    "duration": 136.12,
+    "date_transcription": "2025-04-15T13:20:09.229093",
+    "model": "whisper-large",
+    "processing": "segmented-improved"
+  },
+  "speakers": {
+    "Speaker 1": {
+      "id": "Speaker 1",
+      "name": "Client",
+      "segments_count": 25
+    },
+    "Speaker 2": {
+      "id": "Speaker 2",
+      "name": "Agent",
+      "segments_count": 38
+    }
+  },
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 12.620000000000001,
+      "text": " Oui, bonjour, c'est Annex Ramanville.",
+      "speaker": "Speaker 1",
+      "entities": [
+        {
+          "text": "Annex Ramanville",
+          "label": "PER",
+          "start": 21,
+          "end": 37
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 0.0,
+      "end_time": 6.18,
+      "text": " Utilisez votre espace client sur annexe.com ou téléchargez notre application mobile.",
+      "speaker": "Speaker 2",
+      "entities": [
+        {
+          "text": "Utilisez votre espace client",
+          "label": "MISC",
+          "start": 1,
+          "end": 29
+        },
+        {
+          "text": "annexe.com",
+          "label": "MISC",
+          "start": 34,
+          "end": 44
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 7.68,
+      "end_time": 10.26,
+      "text": " Annexe, Toulouse Université, bonjour, Claire à votre écoute.",
+      "speaker": "Speaker 2",
+      "entities": [
+        {
+          "text": "Annexe",
+          "label": "PER",
+          "start": 1,
+          "end": 7
+        },
+        {
+          "text": "Toulouse Université",
+          "label": "LOC",
+          "start": 9,
+          "end": 28
+        },
+        {
+          "text": "Claire",
+          "label": "PER",
+          "start": 39,
+          "end": 45
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 14.0,
+      "end_time": 17.62,
+      "text": " C'est à l'université, mais mon collègue a dû être justement en ligne.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 16.62,
+      "end_time": 17.54,
+      "text": " Ah, d'accord.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 18.240000000000002,
+      "end_time": 20.66,
+      "text": " Mais après, je peux vous répondre, je suis multisite.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 20.02,
+      "end_time": 21.46,
+      "text": " Et oui, bonjour.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 22.22,
+      "end_time": 22.6,
+      "text": " Bonjour.",
+      "speaker": "Speaker 2",
+      "entities": [
+        {
+          "text": "Bonjour",
+          "label": "LOC",
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 22.64,
+      "end_time": 28.36,
+      "text": " Voilà, j'ai reçu un message pour me demander l'attestation annuelle d'assurance responsabilité locative.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 28.36,
+      "end_time": 30.36,
+      "text": " D'accord.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 28.7,
+      "end_time": 29.5,
+      "text": " D'accord.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 30.0,
+      "end_time": 32.52,
+      "text": " Donc, ils m'ont renvoyé un document.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 30.0,
+      "end_time": 43.120000000000005,
+      "text": " Ah, alors, vous nous l'envoyez, vous avez notre mail, là ?",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 34.38,
+      "end_time": 38.16,
+      "text": " Donc, je ne sais pas si c'est exactement celui-là qu'il vous faut.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 42.019999999999996,
+      "end_time": 42.38,
+      "text": " Attendez.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 43.120000000000005,
+      "end_time": 51.6,
+      "text": " Alors, attendez, je vais vous le donner, si vous voulez, hop, je, mais, voilà, comme ça, nous, on vérifie, on vous dit si c'est, si c'est bon.",
+      "speaker": "Speaker 2",
+      "entities": [
+        {
+          "text": "hop",
+          "label": "MISC",
+          "start": 58,
+          "end": 61
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 45.3,
+      "end_time": 47.1,
+      "text": " Oui, je vais le prendre.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 47.22,
+      "end_time": 48.36,
+      "text": " Je vous envoie tout ça par mail.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 53.34,
+      "end_time": 56.019999999999996,
+      "text": " Donc, vous avez de quoi noter, monsieur ?",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 55.64,
+      "end_time": 58.2,
+      "text": " Sinon, il faudra me renvoyer celle que je vous avais envoyée l'an dernier",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 56.019999999999996,
+      "end_time": 60.0,
+      "text": " Oui.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 58.2,
+      "end_time": 59.379999999999995,
+      "text": " pour que je leur demande de la même.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 60.0,
+      "end_time": 67.1,
+      "text": " Alors, attendez, je marque",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 60.0,
+      "end_time": 61.6,
+      "text": " Oui, bien sûr. Alors, de toute façon, je vais prendre votre nom.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 63.58,
+      "end_time": 63.98,
+      "text": " Ramonville",
+      "speaker": "Speaker 2",
+      "entities": [
+        {
+          "text": "Ramonville",
+          "label": "LOC",
+          "start": 1,
+          "end": 11
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 63.98,
+      "end_time": 70.5,
+      "text": " Atanex",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 67.1,
+      "end_time": 68.24,
+      "text": " Ramonville.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 70.5,
+      "end_time": 72.74,
+      "text": " avec A2N E2X",
+      "speaker": "Speaker 2",
+      "entities": [
+        {
+          "text": "A2N",
+          "label": "ORG",
+          "start": 6,
+          "end": 9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 72.24,
+      "end_time": 74.22,
+      "text": " At Annex.",
+      "speaker": "Speaker 1",
+      "entities": [
+        {
+          "text": "At Annex",
+          "label": "MISC",
+          "start": 1,
+          "end": 9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 72.74,
+      "end_time": 77.58,
+      "text": " .com",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 76.98,
+      "end_time": 78.94,
+      "text": " Tout simplement.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 77.58,
+      "end_time": 80.38,
+      "text": " C'est ça.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 80.42,
+      "end_time": 81.52,
+      "text": " Ok.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 81.08,
+      "end_time": 83.06,
+      "text": " Voilà. Vous nous l'envoyez si jamais",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 83.06,
+      "end_time": 84.53999999999999,
+      "text": " elle ne nous convient pas.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 85.4,
+      "end_time": 87.32,
+      "text": " On vous le dira et puis on vous renverra",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 87.32,
+      "end_time": 88.46000000000001,
+      "text": " du coup celle que vous aviez.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 88.46000000000001,
+      "end_time": 90.46000000000001,
+      "text": " Quel est votre nom, monsieur ?",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 90.0,
+      "end_time": 91.0,
+      "text": " Durand",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 90.0,
+      "end_time": 91.48,
+      "text": " s'il vous plaît.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 91.0,
+      "end_time": 94.46,
+      "text": " D-U-R-A-N-D",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 94.46,
+      "end_time": 104.72,
+      "text": " C'est ça.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 95.3,
+      "end_time": 96.1,
+      "text": " D'accord.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 98.24,
+      "end_time": 100.56,
+      "text": " Je me mets sur votre fiche.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 103.08,
+      "end_time": 103.82,
+      "text": " Jean-Luc,",
+      "speaker": "Speaker 2",
+      "entities": [
+        {
+          "text": "Jean-Luc",
+          "label": "PER",
+          "start": 1,
+          "end": 9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 105.16,
+      "end_time": 106.0,
+      "text": " vous jouez le box 362",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 107.22,
+      "end_time": 108.0,
+      "text": " de Hong Kong",
+      "speaker": "Speaker 2",
+      "entities": [
+        {
+          "text": "Hong Kong",
+          "label": "LOC",
+          "start": 4,
+          "end": 13
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 108.0,
+      "end_time": 109.98,
+      "text": " depuis novembre 2022.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 110.82,
+      "end_time": 111.32,
+      "text": " Eh bien, écoutez,",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 112.26,
+      "end_time": 113.4,
+      "text": " effectivement, j'attends",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 113.4,
+      "end_time": 115.53999999999999,
+      "text": " votre testation",
+      "speaker": "Speaker 2",
+      "entities": [
+        {
+          "text": "testation",
+          "label": "LOC",
+          "start": 7,
+          "end": 16
+        }
+      ],
+      "tags": []
+    },
+    {
+      "start_time": 115.53999999999999,
+      "end_time": 117.94,
+      "text": " d'assurance.",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 116.16,
+      "end_time": 118.18,
+      "text": " Je l'envoie dans l'après-midi.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 118.72,
+      "end_time": 119.9,
+      "text": " Allez, super, merci beaucoup,",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 120.0,
+      "end_time": 121.9,
+      "text": " de votre appel en tout cas",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 121.0,
+      "end_time": 122.16,
+      "text": " Merci, au revoir.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 121.9,
+      "end_time": 127.5,
+      "text": " bonne journée à vous au revoir",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 123.98,
+      "end_time": 129.82,
+      "text": " Oui, non, c'est bon. Je vous l'enverrai peut-être juste demain.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 127.5,
+      "end_time": 130.24,
+      "text": " ah c'est bon",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 130.24,
+      "end_time": 133.5,
+      "text": " d'accord très bien mais faites comme vous pouvez",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 132.38,
+      "end_time": 133.4,
+      "text": " Ok, merci.",
+      "speaker": "Speaker 1",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 133.5,
+      "end_time": 135.5,
+      "text": " merci beaucoup bonne journée à vous",
+      "speaker": "Speaker 2",
+      "entities": [],
+      "tags": []
+    },
+    {
+      "start_time": 134.84,
+      "end_time": 136.12,
+      "text": " Bonne journée à vous, au revoir.",
+      "speaker": "Speaker 1",
+      "entities": [
+        {
+          "text": "Bonne",
+          "label": "PER",
+          "start": 1,
+          "end": 6
+        }
+      ],
+      "tags": []
+    }
+  ],
+  "dialogue_summary": {
+    "total_segments": 63,
+    "total_duration": 136.12,
+    "tags": []
+  }
+}

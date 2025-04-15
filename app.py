@@ -11,7 +11,7 @@ st.set_page_config(
 )
 
 # Titre de l'application
-st.title("💬 Assistant IA basé sur documents Markdown")
+st.title("💬 Agent conversationnel Annexx")
 
 # Initialisation des variables de session
 if "chatbot" not in st.session_state:
