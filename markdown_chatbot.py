@@ -216,10 +216,11 @@ class MarkdownChatbot:
                 end_idx = answer.find("</FINAL_ANSWER>")
                 final_answer = answer[start_idx:end_idx].strip()
                 
-                # Mettre à jour l'historique avec la réponse filtrée
+                # Mettre à jour l'historique avec la réponse complète (pour le contexte)
                 self.chat_history.append({"role": "user", "content": query})
-                self.chat_history.append({"role": "assistant", "content": final_answer})
+                self.chat_history.append({"role": "assistant", "content": answer})
                 
+                # Retourner uniquement la partie FINAL_ANSWER à l'utilisateur
                 return final_answer
             else:
                 # Si le format n'est pas respecté, renvoyer la réponse complète
