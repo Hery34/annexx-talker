@@ -94,7 +94,7 @@ class MarkdownChatbot:
             
         return dot_product / (norm_a * norm_b)
     
-    def _find_relevant_documents(self, query, top_k=3):
+    def _find_relevant_documents(self, query, top_k=5):
         """Trouve les documents les plus pertinents pour la requête."""
         # Créer l'embedding de la requête
         query_response = openai.embeddings.create(
@@ -124,21 +124,33 @@ class MarkdownChatbot:
         """Répond à une question en utilisant les documents pertinents."""
         try:
             # Trouver les documents pertinents
-            relevant_docs = self._find_relevant_documents(query)
+            relevant_docs = self._find_relevant_documents(query, top_k=5)
             
             # Construire le contexte à partir des documents pertinents
-            context = "\n\n---\n\n".join([doc["content"] for doc in relevant_docs])
+            context_parts = [] 
+            for doc in relevant_docs:
+                context_parts.append(f"Document: {os.path.basename(doc['source'])}\n{doc['content']}")
+            
+            context = "\n\n---\n\n".join(context_parts)
+
+            system_prompt = (
+                "Vous êtes un assistant IA expert basé sur une collection de documents markdown. "
+                "Votre tâche est de fournir des réponses précises et bien structurées en utilisant uniquement "
+                "les informations contenues dans les documents fournis. "
+                "Suivez ces directives :\n"
+                "1. Synthétisez les informations des documents sans les répéter mot pour mot\n"
+                "2. Ne recopiez jamais les questions dans vos réponses\n"
+                "3. Structurez clairement vos réponses avec des paragraphes logiques\n"
+                "4. Si l'information n'est pas présente dans les documents, indiquez-le clairement\n"
+                "5. Ignorez les éléments de formatage markdown dans vos réponses\n\n"
+                f"Voici les extraits pertinents:\n\n{context}"
+            )
             
             # Construire les messages pour le chat
-            messages = [
-                {"role": "system", "content": f"Vous êtes un assistant IA basé sur une collection de documents markdown. "
-                                            f"Répondez aux questions en utilisant uniquement les informations contenues "
-                                            f"dans ces documents. Si la réponse n'est pas dans les documents, dites que "
-                                            f"vous ne savez pas. Voici les extraits pertinents:\n\n{context}"}
-            ]
+            messages = [{"role": "system", "content": system_prompt}]
             
             # Ajouter l'historique récent (limité à 4 messages)
-            for msg in self.chat_history[-4:]:
+            for msg in self.chat_history[-6:]:
                 messages.append(msg)
             
             # Ajouter la question actuelle
@@ -148,7 +160,7 @@ class MarkdownChatbot:
             response = openai.chat.completions.create(
                 model="gpt-4",
                 messages=messages,
-                temperature=0.7,
+                temperature=0.3,
             )
             
             answer = response.choices[0].message.content
