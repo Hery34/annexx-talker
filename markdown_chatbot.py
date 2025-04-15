@@ -2,12 +2,13 @@ import os
 import glob
 from typing import List
 from dotenv import load_dotenv
-from langchain.document_loaders import TextLoader
-from langchain.text_splitter import MarkdownTextSplitter
-from langchain.embeddings.openai import OpenAIEmbeddings
-from langchain.vectorstores import FAISS
-from langchain.chat_models import ChatOpenAI
+from langchain_community.document_loaders import TextLoader
+from langchain_text.text_splitter import MarkdownTextSplitter
+from langchain_openai.embeddings import OpenAIEmbeddings
+from langchain_community.vectorstores import FAISS
+from langchain_openai.chat_models import ChatOpenAI
 from langchain.chains import ConversationalRetrievalChain
+from langchain.memory import ConversationBufferMemoryin
 from langchain.memory import ConversationBufferMemory
 
 # Charger les variables d'environnement

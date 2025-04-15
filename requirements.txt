@@ -1,7 +1,10 @@
 streamlit
-langchain
+langchain==0.1.4  # Spécifiez une version spécifique 
+langchain-text==0.0.5  # Package pour les chargeurs de documents texte
+langchain-openai==0.0.5
+langchain-community==0.0.13
+faiss-cpu
 openai
 python-dotenv
-faiss-cpu
 markdown
 tiktoken
